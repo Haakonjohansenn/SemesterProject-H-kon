@@ -1,0 +1,251 @@
+:root {
+  --main-color: #FDD068;
+}
+
+main {
+  font-family: 'Public Sans', sans-serif;
+}
+
+.visit-header h2 {
+  text-align: center;
+}
+
+.line {
+  height: 1px;
+  background: black;
+  width: 250px;
+  margin: auto;
+}
+
+main h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 40px;
+}
+
+main h3 {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 40px;
+}
+
+.visit-hero-image {
+  width: 260px;
+  border-radius: 23px;
+  margin-top: 25px;
+}
+
+.visit-hero-image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.admission-text-1, .admission-text-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.admission-text-1 p, .admission-text-2 p {
+  max-width: 260px;
+  font-size: 10px;
+  line-height: 20px;
+}
+
+.opening-hours-section h3 {
+  margin-bottom: 30px;
+}
+
+.opening-hours-text p {
+  font-size: 10px;
+  line-height: 20px;
+}
+
+.opening-hours-text p {
+  text-align: center;
+}
+
+.accessability-text p {
+  max-width: 260px;
+  font-size: 10px;
+  line-height: 20px;
+}
+
+.accessability-text {
+  display: flex;
+  justify-content: center;
+}
+
+.food-and-drink-text p {
+  max-width: 260px;
+  font-size: 10px;
+  line-height: 20px;
+}
+
+.food-and-drink-text {
+  display: flex;
+  justify-content: center;
+}
+
+.library-image {
+  width: 260px;
+  border-radius: 23px;
+}
+
+.library-image-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0px;
+}
+
+.shop-text p {
+  max-width: 260px;
+  font-size: 10px;
+  line-height: 20px;
+}
+
+.shop-text {
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width:768px) {
+  .line {
+    height: 1px;
+    background: black;
+    width: 550px;
+    margin: auto;
+  }
+
+  main h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+  }
+
+  main h3 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+  }
+  
+  .visit-hero-image {
+    width: 480px;
+    border-radius: 23px;
+    margin-top: 35px;
+  }
+
+  .admission-text-1 p, .admission-text-2 p {
+    max-width: 480px;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  
+  .opening-hours-section h3 {
+    margin-bottom: 40px;
+  }
+  
+  .opening-hours-text p {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .accessability-text p {
+    max-width: 480px;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  
+  .food-and-drink-text p {
+    max-width: 480px;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  
+  .library-image {
+    width: 480px;
+    border-radius: 23px;
+  }
+  
+  .library-image-container {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+  }
+  
+  .shop-text p {
+    max-width: 480px;
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
+
+@media (min-width:1200px) {
+  .line {
+    height: 1px;
+    background: black;
+    width: 900px;
+    margin: auto;
+  }
+
+  main h2 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 40px;
+  }
+
+  main h3 {
+    text-align: center;
+    font-size: 45px;
+    margin-top: 50px;
+  }
+  
+  .visit-hero-image {
+    width: 750px;
+    border-radius: 23px;
+    margin-top: 50px;
+  }
+
+  .admission-text-1 p, .admission-text-2 p {
+    max-width: 750px;
+    font-size: 24px;
+    line-height: 40px;
+  }
+  
+  .opening-hours-section h3 {
+    margin-bottom: 50px;
+  }
+  
+  .opening-hours-text p {
+    font-size: 24px;
+    line-height: 40px;
+  }
+
+  .accessability-text p {
+    max-width: 750px;
+    font-size: 24px;
+    line-height: 40px;
+  }
+  
+  .food-and-drink-text p {
+    max-width: 750px;
+    font-size: 24px;
+    line-height: 40px;
+  }
+  
+  .library-image {
+    width: 750px;
+    border-radius: 23px;
+  }
+  
+  .library-image-container {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px;
+  }
+  
+  .shop-text p {
+    max-width: 750px;
+    font-size: 24px;
+    line-height: 40px;
+  }
+}

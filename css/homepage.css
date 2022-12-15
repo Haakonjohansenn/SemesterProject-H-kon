@@ -1,0 +1,729 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Public+Sans&display=swap');
+
+:root {
+  --main-color: #FDD068;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+main {
+  font-family: 'Public Sans', sans-serif;
+}
+
+main h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 40px;
+}
+
+.explore {
+  width: 80px;
+  height: 80px;
+}
+
+.parent-explore {
+  display: flex;
+  justify-content: center;
+  gap: 1.8rem;
+}
+
+.parent-explore a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #000;
+}
+
+.explore-containers {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  background-color: var(--main-color);
+  border: none;
+  border-radius: 7px;
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.button:hover {
+  background-color: bisque;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.exhibition {
+  width: 60px;
+  height: 60px;
+  display: flex;
+}
+
+.exhibition-section {
+  margin-top: 60px;
+}
+.exhibition-picture-collage-parent {
+  margin-top: 40px;
+  margin-left: 14px;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.exhibition-picture-collage-parent h2 {
+  margin-top: -10px;
+}
+
+.mammoth-pic, .planet-pic {
+  margin-top: 10px;
+}
+
+.exhibitions-text p {
+  font-size: 12px;
+  max-width: 150px;
+  margin-top: -10px;
+}
+
+.see-more-button a {
+  text-decoration: none;
+  color: #000;
+}
+
+.see-more-button {
+  width: 115px;
+  height: 20px;
+  margin-top: -10px;
+}
+
+.events-section {
+  margin-top: 40px;
+}
+
+.events-section h2 {
+  text-align: center;
+}
+
+.event {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.event-photo-container {
+  display: flex;
+  justify-content: center;
+  gap: 1.8rem;
+}
+
+.event-image p {
+  font-size: 10px;
+  line-height: 10px;
+  text-align: center;
+  max-width: 80px;
+}
+
+.see-more-button-container {
+  display: flex;
+  justify-content: center;  
+}
+
+.support-card {
+  width: 95px;
+  background-color: var(--main-color);
+  height: 175px;
+  border-radius: 40px;
+}
+
+.support-card h2 {
+  margin-top: 14px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.support-card p {
+  max-width: 80px;
+  font-size: 10px;
+  line-height: 13px;
+  text-align: center;
+  margin-left: 8px;
+  margin-top: -8px;
+}
+
+.volunteer-card {
+  width: 95px;
+  background-color: var(--main-color);
+  height: 175px;
+  border-radius: 40px;
+}
+
+.volunteer-card h2 {
+  font-family: 'Public Sans', sans-serif;
+  margin-top: 14px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.volunteer-card p {
+  font-family: 'Public Sans', sans-serif;
+  max-width: 80px;
+  font-size: 10px;
+  line-height: 13px;
+  text-align: center;
+  margin-left: 8px;
+  margin-top: -8px;
+}
+
+.internships-card {
+  width: 95px;
+  background-color: var(--main-color);
+  height: 175px;
+  border-radius: 40px;
+}
+
+.internships-card h2 {
+  font-family: 'Public Sans', sans-serif;
+  margin-top: 14px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.internships-card p {
+  font-family: 'Public Sans', sans-serif;
+  max-width: 80px;
+  font-size: 10px;
+  line-height: 13px;
+  text-align: center;
+  margin-left: 8px;
+  margin-top: -6px;
+}
+
+.gi-card-parent {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 20px;
+  padding-bottom: 10px;  
+}
+
+.see-more-button-green {
+  width: 115px;
+  height: 20px;
+  border: none;
+  border-radius: 7px;
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 700;
+  background-color: #3FA752;
+  margin-bottom: 40px;
+}
+
+.see-more-button-green a {
+  text-decoration: none;
+  color: #fff;
+}
+
+@media (min-width: 280px){
+  .navmenu {
+    position: fixed;
+    flex-direction: column;
+    background-color: var(--main-color);
+  }
+
+  .navmenu.active {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    left: 0%;
+    top: 70px;
+  }
+
+  footer {
+    font-size: 10px;
+  }
+
+  .parent-footer {
+    gap: 3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .navmenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 28px;
+    gap: 2.5rem;
+  }
+
+  .navmenu.active {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    top: 70px;
+  }
+
+  * footer h2 {
+    font-size: 18px;
+  }
+
+  main h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+  }
+
+  .explore-section h1 {
+    font-size: 35px;
+  }
+
+  .explore {
+    width: 140px;
+    height: 140px;
+  }
+
+  .parent-explore {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+  }
+  
+  .parent-explore a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .button {
+    background-color: var(--main-color);
+    border: none;
+    border-radius: 12px;
+    font-weight: 700;
+    margin-top: 10px;
+  }
+
+  .exhibition {
+    width: 120px;
+    height: 120px;
+    display: flex;
+  }
+  
+  .exhibition-section {
+    margin-top: 120px;
+  }
+
+  .exhibition-picture-collage-parent {
+    margin-top: 40px;
+    margin-left: 14px;
+    display: flex;
+    justify-content: center;
+    gap: 2.3rem;
+  }
+  
+  .mammoth-pic, .planet-pic {
+    margin-top: 30px;
+  }
+  
+  .exhibitions-text {
+    font-family: 'Public Sans', sans-serif;
+  }
+  
+  .exhibitions-text p {
+    font-size: 18px;
+    max-width: 250px;
+    margin-top: 10px;
+    line-height: 35px;
+  }
+  
+  .see-more-button a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #000;
+  }
+  
+  .see-more-button {
+    width: 160px;
+    height: 25px;
+    margin-top: 10px;
+  }
+
+  .events-section {
+    margin-top: 120px;
+  }
+
+  .events-section h1 {
+    font-size: 35px;
+  }
+
+  .event {
+    width: 140px;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .event-photo-container {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+  }
+  
+  .event-image p {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    max-width: 140px;
+  }
+
+  .parent-footer {
+    font-size: 18px;
+  }
+
+  .support-card {
+    width: 220px;
+    background-color: var(--main-color);
+    height: 280px;
+    border-radius: 90px;
+  }
+  
+  .support-card h2 {
+    font-family: 'Public Sans', sans-serif;
+    margin-top: 14px;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .support-card p {
+    font-family: 'Public Sans', sans-serif;
+    max-width: 180px;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    margin-left: 24px;
+    margin-top: -6px;
+  }
+
+  .volunteer-card {
+    width: 220px;
+    background-color: var(--main-color);
+    height: 280px;
+    border-radius: 90px;
+  }
+  
+  .volunteer-card h2 {
+    font-family: 'Public Sans', sans-serif;
+    margin-top: 14px;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .volunteer-card p {
+    font-family: 'Public Sans', sans-serif;
+    max-width: 180px;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    margin-left: 24px;
+    margin-top: -6px;
+  }
+  
+  .internships-card {
+    width: 220px;
+    background-color: var(--main-color);
+    height: 280px;
+    border-radius: 90px;
+  }
+  
+  .internships-card h2 {
+    font-family: 'Public Sans', sans-serif;
+    margin-top: 14px;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .internships-card p {
+    font-family: 'Public Sans', sans-serif;
+    max-width: 180px;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    margin-left: 24px;
+    margin-top: -6px;
+  }
+  
+  .gi-card-parent {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 40px;
+    padding-bottom: 30px;
+  }
+
+  .get-involved-section h2 {
+    margin-top: 100px;
+  }
+  
+  .see-more-button-green {
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 25px;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 700;
+    background-color: #3FA752;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  .navmenu.active {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    top: 70px;
+  }
+
+  .hamburger {
+    display: block;
+    margin-top: 27px;
+    padding-left: 580px;
+  }
+
+  * footer h2 {
+    font-size: 24px;
+  }
+
+  main h2 {
+    text-align: center;
+    font-size: 45px;
+    margin-top: 40px;
+  }
+
+  .hero-picture {
+    width: 550px;
+    height: 350px;
+    border-radius: 35px;
+    margin-right: 35px;
+    margin-top: 30px;
+  }
+  
+  .hero-text {
+    line-height: 140px;
+    font-size: 50px;
+    font-family: "Permanent Marker", cursive;
+    margin-left: 50px;
+  }
+
+  .explore-section h1 {
+    font-size: 50px;
+  }
+
+  .explore {
+    width: 240px;
+    height: 240px;
+  }
+
+  .parent-explore {
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+  }
+  
+  .parent-explore a {
+    font-size: 28px;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .button {
+    background-color: var(--main-color);
+    border: none;
+    border-radius: 12px;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 700;
+    margin-top: 24px;
+  }
+
+  .exhibition {
+    width: 180px;
+    height: 180px;
+    display: flex;
+  }
+  
+  .exhibition-section {
+    margin-top: 200px;
+  }
+
+  .exhibition-picture-collage-parent {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+  }
+  
+  .mammoth-pic, .planet-pic {
+    margin-top: 80px;
+  }
+  
+  .exhibitions-text {
+    font-family: 'Public Sans', sans-serif;
+  }
+  
+  .exhibitions-text p {
+    font-size: 30px;
+    max-width: 400px;
+    margin-top: 10px;
+    line-height: 50px;
+  }
+
+  .exhibitions-text h1 {
+    font-size: 50px;
+  }
+  
+  .see-more-button a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #000;
+  }
+  
+  .see-more-button {
+    width: 300px;
+    height: 38px;
+    margin-top: 70px;
+  }
+
+  .see-more-button-container {
+    margin-top: -70px;
+  }
+
+  .events-section {
+    margin-top: 200px;
+  }
+
+  .events-section h1 {
+    font-size: 50px;
+  }
+
+  .event {
+    width: 240px;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .event-photo-container {
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+  }
+  
+  .event-image p {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    max-width: 240px;
+  }
+
+  .support-card {
+    width: 280px;
+    background-color: var(--main-color);
+    height: 350px;
+    border-radius: 120px;
+  }
+  
+  .support-card h2 {
+    font-family: 'Public Sans', sans-serif;
+    margin-top: 14px;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .support-card p {
+    font-family: 'Public Sans', sans-serif;
+    max-width: 240px;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: -6px;
+  }
+
+  .volunteer-card {
+    width: 280px;
+    background-color: var(--main-color);
+    height: 350px;
+    border-radius: 120px;
+  }
+  
+  .volunteer-card h2 {
+    font-family: 'Public Sans', sans-serif;
+    margin-top: 14px;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .volunteer-card p {
+    font-family: 'Public Sans', sans-serif;
+    max-width: 240px;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: -6px;
+  }
+
+  .internships-card {
+    width: 280px;
+    background-color: var(--main-color);
+    height: 350px;
+    border-radius: 120px;
+  }
+  
+  .internships-card h2 {
+    font-family: 'Public Sans', sans-serif;
+    margin-top: 14px;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .internships-card p {
+    font-family: 'Public Sans', sans-serif;
+    max-width: 240px;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: -6px;
+  }
+
+  .gi-card-parent {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    margin-top: 50px;
+    padding-bottom: 40px;
+  }
+
+  .see-more-button-green {
+    width: 300px;
+    height: 38px;
+    border: none;
+    border-radius: 12px;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    background-color: #3FA752;
+    margin-top: 100px;
+  }
+
+  .parent-footer {
+    font-size: 18px;
+  }
+}

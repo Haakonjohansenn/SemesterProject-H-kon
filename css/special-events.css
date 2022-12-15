@@ -1,0 +1,245 @@
+:root {
+  --main-color: #FDD068;
+}
+
+main {
+  font-family: 'Public Sans', sans-serif;
+}
+
+.special-events-header h2 {
+  text-align: center;
+}
+
+.line {
+  height: 1px;
+  background: black;
+  width: 250px;
+  margin: auto;
+}
+
+main h3 {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 40px;
+}
+
+.professor-of-aeronautics-section h3 {
+  max-width: 240px;
+}
+
+.aeronautics-header-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.professor-of-aeronautics-image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.professor-of-aeronautics {
+  width: 240px;
+}
+
+.professor-of-aeronautics-text p {
+  width: 240px;
+  font-size: 12px;
+  line-height: 25px;
+}
+
+.professor-of-aeronautics-text {
+  display: flex;
+  justify-content: center;
+}
+
+.night-in-the-museum-image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.night-in-the-museum {
+  width: 240px;
+  height: 240px;
+}
+
+.night-in-the-museum-text p {
+  width: 240px;
+  font-size: 12px;
+  line-height: 25px;
+}
+
+.night-in-the-museum-text {
+  display: flex;
+  justify-content: center;
+}
+
+.energetica-exhibition-text {
+  display: flex;
+  justify-content: center;
+}
+
+.energetica-exhibition-section h3 {
+  max-width: 240px;
+}
+
+.energetica-header-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.energetica-exhibition-container {
+  display: flex;
+  justify-content: center;
+}
+
+.energetica-exhibition {
+  width: 240px;
+}
+
+.energetica-exhibition-text p {
+  width: 240px;
+  font-size: 12px;
+  line-height: 25px;
+}
+
+.energetica-exhibition-text {
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width:768px) {
+  .line {
+    height: 1px;
+    background: black;
+    width: 700px;
+    margin: auto;
+  }
+
+  .special-events-header h2 {
+    font-size: 40px;
+  }
+  
+  main h3 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+  }
+  
+  .professor-of-aeronautics-section h3 {
+    max-width: 480px;
+  }
+  
+  .professor-of-aeronautics {
+    width: 480px;
+    padding: 20px 0px;
+  }
+  
+  .professor-of-aeronautics-text p {
+    width: 480px;
+    font-size: 18px;
+    line-height: 35px;
+  }
+  
+  .night-in-the-museum {
+    width: 480px;
+    height: 480px;
+    padding: 20px 0px;
+  }
+  
+  .night-in-the-museum-text p {
+    width: 480px;
+    font-size: 18px;
+    line-height: 35px;
+  }
+
+  .energetica-exhibition-section h3 {
+    max-width: 480px;
+  }
+  
+  .energetica-exhibition {
+    width: 480px;
+    padding: 20px 0px;
+  }
+  
+  .energetica-exhibition-text p {
+    width: 480px;
+    font-size: 18px;
+    line-height: 35px;
+  }
+}
+
+@media (min-width:1200px) {
+  .line {
+    height: 1px;
+    background: black;
+    width: 700px;
+    margin: auto;
+  }
+
+  .special-events-header h2 {
+    font-size: 55px;
+  }
+  
+  main h3 {
+    text-align: center;
+    font-size: 45px;
+    margin-top: 55px;
+  }
+  
+  .professor-of-aeronautics-section h3 {
+    max-width: 800px;
+  }
+  
+  .professor-of-aeronautics {
+    width: 800px;
+    padding: 30px 0px;
+  }
+  
+  .professor-of-aeronautics-text p {
+    width: 800px;
+    font-size: 30px;
+    line-height: 55px;
+  }
+  
+  .night-in-the-museum {
+    width: 800px;
+    height: 700px;
+    padding: 30px 0px;
+  }
+  
+  .night-in-the-museum-text p {
+    width: 800px;
+    font-size: 30px;
+    line-height: 55px;
+  }
+
+  .energetica-exhibition-section h3 {
+    max-width: 800px;
+  }
+  
+  .professor-of-aeronautics {
+    width: 800px;
+    padding: 30px 0px;
+  }
+  
+  .energetica-exhibition p {
+    width: 800px;
+    font-size: 30px;
+    line-height: 55px;
+  }
+
+  .energetica-exhibition-section h3 {
+    max-width: 800px;
+  }
+  
+  .energetica-exhibition {
+    width: 800px;
+    padding: 30px 0px;
+  }
+  
+  .energetica-exhibition-text p {
+    width: 800px;
+    font-size: 30px;
+    line-height: 55px;
+  }
+}

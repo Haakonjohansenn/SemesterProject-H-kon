@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Public+Sans&display=swap');
+
+:root {
+  --main-color: #FDD068;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+header {
+  background-color: var(--main-color);
+  width: 100%;
+}
+
+.parent-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-picture {
+  width: 70px;
+  height: 70px;
+  margin-top: 12px;
+}
+
+.logo-container {
+  display: flex;
+}
+
+.logo-parent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-container h1 {
+  font-size: 15px;
+  font-family: "Permanent Marker", cursive;
+  display: flex;
+  max-width: 80px;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  font-family: "Permanent Marker", cursive;
+}
+
+.navmenu {
+  display: none;
+}
+
+.nav-bar {
+  display: flex;
+}
+
+.hamburger {
+  display: block;
+  margin-top: 27px;
+  margin-right: 20px;
+}
+
+.bar {
+  display: flex;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  transition: all 0.3s ease-in-out;
+  background-color: #000;
+}
+
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+footer {
+  width: 100%;
+  background-color: var(--main-color);
+}
+
+.parent-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.hero-picture {
+  width: 120px;
+  border-radius: 20px;
+}
+
+.hero-text {
+  max-width: 100px;
+  line-height: 50px;
+  font-size: 14px;
+  font-family: "Permanent Marker", cursive;
+  margin-left: 20px;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: var(--main-color);
+}
+
+@media (min-width: 280px){
+  .navmenu {
+    position: fixed;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--main-color);
+  }
+
+  .navmenu.active {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    left: 0%;
+    top: 70px;
+  }
+
+  footer {
+    font-size: 10px;
+  }
+
+  .parent-footer {
+    gap: 3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .navmenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 28px;
+    gap: 2.5rem;
+  }
+
+  .navmenu.active {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    top: 70px;
+  }
+
+  .hamburger {
+    display: none;
+    margin-top: 27px;
+  }
+
+  .hero-picture {
+    width: 350px;
+    height: 250px;
+    border-radius: 35px;
+    margin-right: 18px;
+    margin-top: 30px;
+  }
+  
+  .hero-text {
+    line-height: 120px;
+    font-size: 38px;
+    font-family: "Permanent Marker", cursive;
+    margin-left: 20px;
+  }
+
+  .logo-parent {
+    display: flex;
+    justify-content: space-between;
+    gap: 7rem;
+  }
+
+  .parent-footer {
+    font-size: 18px;
+  }
+
+  * footer h2 {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  .navmenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 34px;
+    gap: 4rem;
+    margin-top: 18px;
+  }
+
+  .navmenu.active {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    top: 70px;
+  }
+
+  .hamburger {
+    display: none;
+    margin-top: 27px;
+  }
+
+  .hero-picture {
+    width: 550px;
+    height: 350px;
+    border-radius: 35px;
+    margin-right: 35px;
+    margin-top: 30px;
+  }
+  
+  .hero-text {
+    line-height: 140px;
+    font-size: 50px;
+    font-family: "Permanent Marker", cursive;
+    margin-left: 50px;
+  }
+
+  .logo-parent {
+    display: flex;
+    justify-content: space-between;
+    gap: 25rem;
+  }
+
+  .parent-footer {
+    font-size: 18px;
+  }
+
+  * footer h2 {
+    font-size: 24px;
+  }
+}

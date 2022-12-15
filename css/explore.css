@@ -1,0 +1,701 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Public+Sans&display=swap');
+
+:root {
+  --main-color: #FDD068;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+main {
+  font-family: 'Public Sans', sans-serif;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 24px;
+  text-align: center;
+}
+
+.for-kids-text {
+  max-width: 240px;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
+  margin: auto;
+}
+
+.line {
+  height: 1px;
+  background: black;
+  width: 250px;
+  margin: auto;
+}
+
+.for-kids-image-parent {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.bumper-swing, .mammoth {
+  height: 80px;
+  width: 104px;
+  margin-left: 15px;
+  margin-top: 35px;
+}
+
+.bumper-swing-container p {
+  font-size: 10px;
+  max-width: 140px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.mammoth-container p {
+  font-size: 10px;
+  max-width: 140px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.see-exhibition-section p {
+  font-size: 10px;
+  max-width: 280px;
+  line-height: 25px;
+  margin-top: 25px;
+  margin-left: 10px;
+}
+
+.see-exhibition-text {
+  display: flex;
+  justify-content: center;
+}
+
+.see-exhibition-button {
+  width: 280px;
+  height: 45px;
+  border: none;
+  border-radius: 15px;
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 700;
+  background-color: #3FA752;
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+
+.see-exhibition-button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.see-exhibition-button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.kid-learning {
+  width: 290px;
+}
+
+.kid-learning-container {
+  display: flex;
+  justify-content: center;
+}
+
+.clubs-text-1 {
+  display: flex;
+  justify-content: center;
+}
+
+.clubs-text-1 p {
+  max-width: 270px;
+  font-size: 10px;
+  line-height: 20px;
+}
+
+.kid-reading {
+  width: 94px;
+  margin-left: 8px;
+}
+
+.kid-reading-text p {
+  font-size: 10px;
+  line-height: 20px;
+  max-width: 180px;
+  margin-top: -6px;
+}
+
+.kid-reading-parent {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 35px;
+  justify-content: center;
+}
+
+.get-in-touch-button {
+  width: 150px;
+  height: 30px;
+  border: none;
+  border-radius: 15px;
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 700;
+  background-color: #3FA752;
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+
+.get-in-touch-button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.get-in-touch-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.for-teachers-text-1 {
+  display: flex;
+  justify-content: center;
+}
+
+.for-teachers-text-1 p {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
+  max-width: 256px;
+}
+
+.luke-ellis, .exhibition-cases {
+  width: 120px;
+  height: 150px;
+}
+
+.for-teachers-images {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 25px;
+}
+
+.for-teachers-text-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.for-teachers-text-2 p {
+  max-width: 270px;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.for-teachers-get-in-touch-text {
+  display: flex;
+  justify-content: center;
+}
+
+.for-teachers-get-in-touch-text p {
+  max-width: 270px;
+  font-size: 10px;
+  line-height: 15px;
+  margin-top: 25px;
+}
+
+.for-researchers-text {
+  display: flex;
+  justify-content: center;
+}
+
+.for-researchers-text p {
+  max-width: 285px;
+  line-height: 25px;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.microscope-pic, .science-equipment-pic {
+  height: 130px;
+  width: 130px;
+}
+
+.for-researchers-images {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 15px;
+}
+
+@media (min-width: 280px){
+  .navmenu {
+    position: fixed;
+    flex-direction: column;
+    background-color: var(--main-color);
+  }
+
+  .navmenu.active {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    left: 0%;
+    top: 70px;
+  }
+
+  footer {
+    font-size: 10px;
+  }
+
+  .parent-footer {
+    gap: 3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .navmenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 28px;
+    gap: 2.5rem;
+  }
+
+  .navmenu.active {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    top: 70px;
+  }
+
+
+  .hero-picture {
+    width: 350px;
+    height: 250px;
+    border-radius: 35px;
+    margin-right: 18px;
+    margin-top: 30px;
+  }
+  
+  .hero-text {
+    line-height: 120px;
+    font-size: 38px;
+    font-family: "Permanent Marker", cursive;
+    margin-left: 20px;
+  }
+
+  h2 {
+    font-size: 60px;
+  }
+
+  h3 {
+    font-size: 50px;
+  }
+
+  .parent-footer {
+    font-size: 18px;
+  }
+
+  * footer h2 {
+    font-size: 18px;
+  }
+
+  .for-kids-text {
+    max-width: 500px;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 35px;
+    margin: auto;
+  }
+  
+  .line {
+    height: 1px;
+    background: black;
+    width: 600px;
+    margin: auto;
+  }
+  
+  .for-kids-image-parent {
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+  }
+  
+  .bumper-swing, .mammoth {
+    height: 200px;
+    width: 260px;
+    margin-left: 15px;
+    margin-top: 35px;
+  }
+  
+  .bumper-swing-container p {
+    font-size: 18px;
+    max-width: 240px;
+    line-height: 20px;
+    margin-left: 40px;
+    text-align: center;
+  }
+  
+  .mammoth-container p {
+    font-size: 18px;
+    max-width: 240px;
+    line-height: 20px;
+    margin-left: 25px;
+    text-align: center;
+  }
+  
+  .see-exhibition-section p {
+    font-size: 15px;
+    max-width: 400px;
+    line-height: 35px;
+    margin-top: 50px;
+  }
+  
+  .see-exhibition-button {
+    width: 400px;
+    height: 60px;
+    border: none;
+    border-radius: 15px;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 700;
+    background-color: #3FA752;
+    margin-bottom: 40px;
+    margin-top: 10px;
+  }
+
+  .see-exhibition-button a {
+    font-size: 18px;
+  }
+
+  .kid-learning {
+    width: 600px;
+  }
+  
+  .clubs-text-1 p {
+    max-width: 600px;
+    font-size: 15px;
+    line-height: 25px;
+  }
+  
+  .kid-reading {
+    width: 188px;
+    margin-left: 8px;
+  }
+  
+  .kid-reading-text p {
+    font-size: 15px;
+    line-height: 35px;
+    max-width: 240px;
+    margin-top: -6px;
+  }
+  
+  .kid-reading-parent {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 35px;
+    justify-content: center;
+  }
+  
+  .get-in-touch-button {
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-radius: 25px;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 700;
+    background-color: #3FA752;
+    margin-bottom: 40px;
+    margin-top: 10px;
+  }
+  
+  .get-in-touch-button a {
+    font-size: 18px;
+  }
+  
+  .get-in-touch-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .for-teachers-text-1 p {
+    max-width: 500px;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 35px;
+  }
+  
+  .luke-ellis, .exhibition-cases {
+    width: 240px;
+    height: 240px;
+  }
+  
+  .for-teachers-images {
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+    margin-top: 25px;
+  }
+  
+  .for-teachers-text-2 p {
+    max-width: 600px;
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 23px;
+  }
+  
+  .for-teachers-get-in-touch-text p {
+    max-width: 380px;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 25px;
+  }
+
+  .for-researchers-text p {
+    max-width: 550px;
+    line-height: 35px;
+    font-size: 25px;
+    font-weight: 200;
+  }
+  
+  .microscope-pic, .science-equipment-pic {
+    height: 260px;
+    width: 260px;
+  }
+  
+  .for-researchers-images {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 20px 0px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .navmenu.active {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    top: 70px;
+  }
+
+  .hamburger {
+    display: block;
+    margin-top: 27px;
+    padding-left: 580px;
+  }
+
+  .hero-picture {
+    width: 550px;
+    height: 350px;
+    border-radius: 35px;
+    margin-right: 35px;
+    margin-top: 30px;
+  }
+  
+  .hero-text {
+    line-height: 140px;
+    font-size: 50px;
+    font-family: "Permanent Marker", cursive;
+    margin-left: 50px;
+  }
+
+  * footer h2 {
+    font-size: 24px;
+  }
+
+  .parent-footer {
+    font-size: 18px;
+  }
+
+  h2 {
+    font-size: 80px;
+  }
+
+  h3 {
+    font-size: 70px;
+  }
+
+  .parent-footer {
+    font-size: 24px;
+  }
+
+  .for-kids-text {
+    max-width: 500px;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 45px;
+    margin: auto;
+  }
+  
+  .line {
+    height: 1px;
+    background: black;
+    width: 900px;
+    margin: auto;
+  }
+  
+  .for-kids-image-parent {
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+  }
+  
+  .bumper-swing, .mammoth {
+    height: 300px;
+    width: 360px;
+    margin-left: 15px;
+    margin-top: 45px;
+  }
+  
+  .bumper-swing-container p {
+    font-size: 22px;
+    max-width: 280px;
+    line-height: 30px;
+    margin-left: 65px;
+    text-align: center;
+  }
+  
+  .mammoth-container p {
+    font-size: 22px;
+    max-width: 280px;
+    line-height: 30px;
+    margin-left: 50px;
+    text-align: center;
+  }
+  
+  .see-exhibition-section p {
+    font-size: 22px;
+    max-width: 600px;
+    line-height: 35px;
+    margin-top: 50px;
+  }
+  
+  .see-exhibition-button {
+    width: 600px;
+    height: 70px;
+    border: none;
+    border-radius: 15px;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 700;
+    background-color: #3FA752;
+    margin-bottom: 40px;
+    margin-top: 15px;
+  }
+
+  .see-exhibition-button a {
+    font-size: 24px;
+  }
+
+  .kid-learning {
+    width: 900px;
+  }
+  
+  .clubs-text-1 p {
+    max-width: 750px;
+    font-size: 28px;
+    line-height: 25px;
+  }
+  
+  .kid-reading {
+    width: 400px;
+    margin-left: 8px;
+  }
+  
+  .kid-reading-text p {
+    font-size: 26px;
+    line-height: 55px;
+    max-width: 350px;
+    margin-top: -6px;
+  }
+  
+  .kid-reading-parent {
+    display: flex;
+    gap: 4rem;
+    margin-top: 100px;
+    justify-content: center;
+  }
+  
+  .get-in-touch-button {
+    width: 450px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 700;
+    background-color: #3FA752;
+    margin-bottom: 40px;
+    margin-top: 10px;
+  }
+  
+  .get-in-touch-button a {
+    font-size: 24px;
+  }
+  
+  .get-in-touch-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .for-teachers-text-1 p {
+    max-width: 800px;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 45px;
+  }
+  
+  .luke-ellis, .exhibition-cases {
+    width: 400px;
+    height: 400px;
+  }
+  
+  .for-teachers-images {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    margin-top: 50px;
+  }
+  
+  .for-teachers-text-2 p {
+    max-width: 750px;
+    font-size: 28px;
+    line-height: 35px;
+    margin-left: 23px;
+  }
+  
+  .for-teachers-get-in-touch-text p {
+    max-width: 700px;
+    font-size: 22px;
+    line-height: 25px;
+    margin-top: 25px;
+  }
+
+  .for-researchers-text p {
+    max-width: 750px;
+    line-height: 35px;
+    font-size: 25px;
+    font-weight: 200;
+  }
+  
+  .microscope-pic, .science-equipment-pic {
+    height: 370px;
+    width: 370px;
+  }
+  
+  .for-researchers-images {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    margin: 50px 0px;
+  }
+}

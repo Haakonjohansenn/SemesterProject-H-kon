@@ -1,0 +1,759 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Public+Sans&display=swap');
+
+:root {
+  --main-color: #FDD068;
+  --text-color: #fff;
+  --purple-1: #3D348B;
+  --purple-2: #7678ED;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+main h2, main h3, main p{
+  font-family: 'Public Sans', sans-serif;
+  color: var(--text-color);
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.cosmology-image-container {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0px;
+}
+
+.cosmology-pic {
+  width: 240px;
+  border-radius: 23px;
+}
+
+.exhibition-cosmology {
+  background-color: #3D348B;
+  padding-top: 1px;
+}
+
+.cosmology-text-1 p, .cosmology-text-2 p {
+  max-width: 240px;
+  font-size: 10px;
+  text-align: center;
+  line-height: 25px;
+}
+
+.cosmology-text-1, .cosmology-text-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.cosmology-text-2 {
+  padding-bottom: 30px;
+}
+
+.cosmology-parent {
+  margin-top: 35px;
+}
+
+.evolution-parent {
+  background-color: var(--purple-2);
+  padding-top: 20px;
+}
+
+.evolution-skeleton-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.evolution-skeleton {
+  width: 240px;
+  border-radius: 23px;
+}
+
+.evolution-text-1 p {
+  max-width: 240px;
+  font-size: 10px;
+  text-align: center;
+  line-height: 25px;
+  margin-top: 30px;
+}
+
+.evolution-text-1 {
+  display: flex;
+  justify-content: center;
+}
+
+.evolution-mammoth, .evolution-dinosaur {
+  width: 115px;
+  height: 95px;
+  border-radius: 23px;
+  margin-top: 30px;
+}
+
+.evolution-images-flex {
+  display: flex;
+  justify-content: center;
+  gap: 1.3rem;
+}
+
+.evolution-text-2 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.evolution-text-2 p {
+  max-width: 250px;
+  font-size: 10px;
+  text-align: center;
+  line-height: 25px;
+  margin-top: 30px;
+}
+
+.biology-medicine-parent {
+  background-color: var(--purple-1);
+  padding-top: 20px;
+}
+
+.biology-skull-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.biology-skull {
+  width: 240px;
+  border-radius: 23px;
+}
+
+.biology-medicine-text-1 p {
+  max-width: 240px;
+  font-size: 10px;
+  text-align: center;
+  line-height: 25px;
+  margin-top: 30px;
+}
+
+.biology-medicine-text-1 {
+  display: flex;
+  justify-content: center;
+}
+
+.biology-body, .biology-heart {
+  width: 115px;
+  height: 100px;
+  border-radius: 23px;
+  margin-top: 30px;
+}
+
+.biology-medicine-images-flex {
+  display: flex;
+  justify-content: center;
+  gap: 1.3rem;
+}
+
+.biology-medicine-text-2 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.biology-medicine-text-2 p {
+  max-width: 250px;
+  font-size: 10px;
+  text-align: center;
+  line-height: 25px;
+  margin-top: 30px;
+}
+
+.robotics-ai-parent {
+  background-color: var(--purple-2);
+  padding-top: 20px;
+}
+
+.child-robot-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.robotics-ai-text p {
+  max-width: 240px;
+  font-size: 10px;
+  text-align: center;
+  line-height: 25px;
+  margin-top: 30px;
+}
+
+.robotics-ai-text {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.child-robot {
+  width: 240px;
+  border-radius: 23px;
+}
+
+.economy-parent {
+  background-color: var(--purple-1);
+  padding-top: 20px;
+}
+
+.energy-container {
+  display: flex;
+  justify-content: center;
+}
+
+.energy {
+  width: 240px;
+  border-radius: 23px;
+}
+
+.economy-text-1 p {
+  max-width: 240px;
+  font-size: 10px;
+  text-align: center;
+  line-height: 25px;
+  margin-top: 30px;
+}
+
+.economy-text-1 {
+  display: flex;
+  justify-content: center;
+}
+
+.economy-text-2 p {
+  max-width: 240px;
+  font-size: 10px;
+  text-align: center;
+  line-height: 25px;
+  margin-top: 30px;
+}
+
+.economy-text-2 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+@media (min-width: 280px) {
+  footer {
+    font-size: 10px;
+  }
+
+  .parent-footer {
+    gap: 3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .navmenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 28px;
+    gap: 2.5rem;
+  }
+
+  .navmenu.active {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    top: 70px;
+  }
+
+  .hamburger {
+    display: block;
+    margin-top: 27px;
+  }
+
+  .hero-picture {
+    width: 350px;
+    height: 250px;
+    border-radius: 35px;
+    margin-right: 18px;
+    margin-top: 30px;
+  }
+  
+  .hero-text {
+    line-height: 120px;
+    font-size: 38px;
+    font-family: "Permanent Marker", cursive;
+    margin-left: 20px;
+  }
+
+  .parent-footer {
+    font-size: 18px;
+  }
+
+  * footer h2 {
+    font-size: 18px;
+  }
+
+  h2 {
+    font-size: 45px;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 35px;
+  }
+
+  .cosmology-image-container {
+    display: flex;
+    justify-content: center;
+    margin: 45px 0px;
+  }
+  
+  .cosmology-pic {
+    width: 480px;
+    border-radius: 23px;
+  }
+  
+  .exhibition-cosmology {
+    background-color: #3D348B;
+    padding-top: 1px;
+  }
+  
+  .cosmology-text-1 p, .cosmology-text-2 p {
+    max-width: 480px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 35px;
+  }
+  
+  .cosmology-text-1, .cosmology-text-2 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .cosmology-text-2 {
+    padding-bottom: 50px;
+  }
+  
+  .cosmology-parent {
+    margin-top: 50px;
+  }
+
+  .evolution-parent {
+    background-color: var(--purple-2);
+    padding-top: 30px;
+  }
+  
+  .evolution-skeleton-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+  }
+  
+  .evolution-skeleton {
+    width: 480px;
+    border-radius: 23px;
+  }
+  
+  .evolution-text-1 p {
+    max-width: 480px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 35px;
+    margin-top: 45px;
+  }
+  
+  .evolution-mammoth, .evolution-dinosaur {
+    width: 230px;
+    height: 200px;
+    border-radius: 23px;
+    margin-top: 45px;
+  }
+  
+  .evolution-images-flex {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+  }
+  
+  .evolution-text-2 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 45px;
+  }
+
+  .evolution-text-2 p {
+    max-width: 480px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 35px;
+    margin-top: 45px;
+  }
+
+  .biology-medicine-parent {
+    background-color: var(--purple-1);
+    padding-top: 30px;
+  }
+  
+  .biology-skull-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+  }
+  
+  .biology-skull {
+    width: 480px;
+    border-radius: 23px;
+  }
+  
+  .biology-medicine-text-1 p {
+    max-width: 480px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 35px;
+    margin-top: 45px;
+  }
+  
+  .biology-body, .biology-heart {
+    width: 230px;
+    height: 200px;
+    border-radius: 23px;
+    margin-top: 30px;
+  }
+  
+  .biology-medicine-images-flex {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+  }
+  
+  .biology-medicine-text-2 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 45px;
+  }
+  
+  .biology-medicine-text-2 p {
+    max-width: 490px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 35px;
+    margin-top: 45px;
+  }
+
+  .robotics-ai-parent {
+    background-color: var(--purple-2);
+    padding-top: 30px;
+  }
+  
+  .child-robot-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+  }
+  
+  .robotics-ai-text p {
+    max-width: 480px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 35px;
+    margin-top: 45px;
+  }
+  
+  .robotics-ai-text {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 45px;
+  }
+  
+  .child-robot {
+    width: 480px;
+    border-radius: 23px;
+  }
+
+  .economy-parent {
+    background-color: var(--purple-1);
+    padding-top: 30px;
+  }
+  
+  .energy-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .energy {
+    width: 480px;
+    border-radius: 23px;
+  }
+  
+  .economy-text-1 p {
+    max-width: 480px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 35px;
+    margin-top: 45px;
+  }
+  
+  .economy-text-2 p {
+    max-width: 480px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 35px;
+    margin-top: 45px;
+  }
+  
+  .economy-text-2 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 45px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .navmenu.active {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    top: 70px;
+  }
+
+  .hamburger {
+    display: block;
+    margin-top: 27px;
+    padding-left: 580px;
+  }
+
+  .hero-picture {
+    width: 550px;
+    height: 350px;
+    border-radius: 35px;
+    margin-right: 35px;
+    margin-top: 30px;
+  }
+  
+  .hero-text {
+    line-height: 140px;
+    font-size: 50px;
+    font-family: "Permanent Marker", cursive;
+    margin-left: 50px;
+  }
+
+  .parent-footer {
+    font-size: 18px;
+  }
+
+  * footer h2 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 55px;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 45px;
+  }
+
+  .cosmology-image-container {
+    display: flex;
+    justify-content: center;
+    margin: 55px 0px;
+  }
+  
+  .cosmology-pic {
+    width: 800px;
+    border-radius: 23px;
+  }
+  
+  .exhibition-cosmology {
+    background-color: #3D348B;
+    padding-top: 1px;
+  }
+  
+  .cosmology-text-1 p, .cosmology-text-2 p {
+    max-width: 800px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 45px;
+  }
+  
+  .cosmology-text-2 {
+    padding-bottom: 60px;
+  }
+  
+  .cosmology-parent {
+    margin-top: 65px;
+  }
+
+  .evolution-parent {
+    background-color: var(--purple-2);
+    padding-top: 40px;
+  }
+  
+  .evolution-skeleton-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+  }
+  
+  .evolution-skeleton {
+    width: 800px;
+    border-radius: 23px;
+  }
+  
+  .evolution-text-1 p {
+    max-width: 800px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 45px;
+    margin-top: 55px;
+  }
+  
+  .evolution-mammoth, .evolution-dinosaur {
+    width: 380px;
+    height: 320px;
+    border-radius: 23px;
+    margin-top: 55px;
+  }
+  
+  .evolution-images-flex {
+    display: flex;
+    justify-content: center;
+    gap: 4.5rem;
+  }
+  
+  .evolution-text-2 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 55px;
+  }
+
+  .evolution-text-2 p {
+    max-width: 800px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 45px;
+    margin-top: 55px;
+  }
+
+  .biology-medicine-parent {
+    background-color: var(--purple-1);
+    padding-top: 40px;
+  }
+  
+  .biology-skull-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+  }
+  
+  .biology-skull {
+    width: 800px;
+    border-radius: 23px;
+  }
+  
+  .biology-medicine-text-1 p {
+    max-width: 800px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 45px;
+    margin-top: 55px;
+  }
+  
+  .biology-body, .biology-heart {
+    width: 380px;
+    height: 320px;
+    border-radius: 23px;
+    margin-top: 40px;
+  }
+  
+  .biology-medicine-images-flex {
+    display: flex;
+    justify-content: center;
+    gap: 4.5rem;
+  }
+  
+  .biology-medicine-text-2 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 55px;
+  }
+  
+  .biology-medicine-text-2 p {
+    max-width: 810px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 45px;
+    margin-top: 55px;
+  }
+
+  .robotics-ai-parent {
+    background-color: var(--purple-2);
+    padding-top: 40px;
+  }
+  
+  .child-robot-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+  }
+  
+  .robotics-ai-text p {
+    max-width: 800px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 45px;
+    margin-top: 55px;
+  }
+  
+  .robotics-ai-text {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 55px;
+  }
+  
+  .child-robot {
+    width: 800px;
+    border-radius: 23px;
+  }
+
+  .economy-parent {
+    background-color: var(--purple-1);
+    padding-top: 40px;
+  }
+  
+  .energy {
+    width: 800px;
+    border-radius: 23px;
+  }
+  
+  .economy-text-1 p {
+    max-width: 800px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 45px;
+    margin-top: 55px;
+  }
+  
+  .economy-text-2 p {
+    max-width: 800px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 45px;
+    margin-top: 55px;
+  }
+  
+  .economy-text-2 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+  }
+}

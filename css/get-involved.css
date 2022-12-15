@@ -1,0 +1,300 @@
+:root {
+  --main-color: #FDD068;
+}
+
+main {
+  font-family: 'Public Sans', sans-serif;
+}
+
+main h3 {
+  text-align: center;
+}
+
+.get-involved-header h2 {
+  text-align: center;
+}
+
+.line {
+  height: 1px;
+  background: black;
+  width: 250px;
+  margin: auto;
+}
+
+.support-card h3 {
+ padding-top: 10px;
+}
+
+.support-card {
+  width: 260px;
+  background-color: var(--main-color);
+  margin: auto;
+  border-radius: 23px;
+}
+
+.support-text-1 p, .support-text-2 p {
+  max-width: 220px;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.support-text-1, .support-text-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.get-in-touch-button {
+  width: 150px;
+  height: 30px;
+  border: none;
+  border-radius: 15px;
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 700;
+  background-color: #3FA752;
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+
+.get-in-touch-button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.get-in-touch-button-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.volunteer-card h3 {
+  padding-top: 10px;
+ }
+ 
+ .volunteer-card {
+   width: 260px;
+   background-color: var(--main-color);
+   margin: auto;
+   border-radius: 23px;
+ }
+ 
+ .volunteer-text-1 p, .volunteer-text-2 p {
+   max-width: 220px;
+   font-size: 12px;
+   line-height: 20px;
+ }
+ 
+ .volunteer-text-1, .volunteer-text-2 {
+   display: flex;
+   justify-content: center;
+ }
+
+ .internships-card h3 {
+  padding-top: 10px;
+ }
+ 
+ .internships-card {
+   width: 260px;
+   background-color: var(--main-color);
+   margin: auto;
+   border-radius: 23px;
+ }
+ 
+ .internships-text-1 p, .internships-text-2 p {
+   max-width: 220px;
+   font-size: 12px;
+   line-height: 20px;
+ }
+ 
+ .internships-text-1, .internships-text-2 {
+   display: flex;
+   justify-content: center;
+ }
+
+ @media (min-width:768px) {
+  .line {
+    height: 1px;
+    background: black;
+    width: 600px;
+    margin: auto;
+  }
+
+  main h3 {
+    font-size: 30px;
+  }
+
+  .get-involved-header h2 {
+    font-size: 45px;
+  }
+  
+  .support-card h3 {
+   padding-top: 10px;
+  }
+  
+  .support-card {
+    width: 480px;
+    background-color: var(--main-color);
+    margin: auto;
+    border-radius: 23px;
+  }
+  
+  .support-text-1 p, .support-text-2 p {
+    max-width: 400px;
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .line {
+    height: 1px;
+    background: black;
+    width: 600px;
+    margin: auto;
+  }
+  
+  .volunteer-card h3 {
+   padding-top: 10px;
+  }
+  
+  .volunteer-card {
+    width: 480px;
+    background-color: var(--main-color);
+    margin: auto;
+    border-radius: 23px;
+  }
+  
+  .volunteer-text-1 p, .volunteer-text-2 p {
+    max-width: 400px;
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .internships-card h3 {
+    padding-top: 10px;
+   }
+   
+   .internships-card {
+     width: 480px;
+     background-color: var(--main-color);
+     margin: auto;
+     border-radius: 23px;
+   }
+   
+   .internships-text-1 p, .internships-text-2 p {
+     max-width: 400px;
+     font-size: 18px;
+     line-height: 30px;
+   }
+  
+  .get-in-touch-button {
+    width: 250px;
+    height: 35px;
+    border: none;
+    font-size: 18px;
+    border-radius: 18px;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 700;
+    background-color: #3FA752;
+    margin-bottom: 40px;
+    margin-top: 10px;
+  }
+  
+  .get-in-touch-button-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+  }
+ }
+
+ @media (min-width:1200px) {
+  .line {
+    height: 1px;
+    background: black;
+    width: 600px;
+    margin: auto;
+  }
+
+  main h3 {
+    font-size: 45px;
+  }
+
+   .get-involved-header h2 {
+    font-size: 55px;
+  }
+
+  .volunteer-card h3 {
+    padding-top: 10px;
+   }
+   
+   .volunteer-card {
+     width: 750px;
+     background-color: var(--main-color);
+     margin: auto;
+     border-radius: 33px;
+   }
+   
+   .volunteer-text-1 p, .volunteer-text-2 p {
+     max-width: 650px;
+     font-size: 24px;
+     line-height: 45px;
+   }
+
+   .support-card h3 {
+    padding-top: 10px;
+   }
+   
+   .support-card {
+     width: 750px;
+     background-color: var(--main-color);
+     margin: auto;
+     border-radius: 33px;
+   }
+   
+   .support-text-1 p, .support-text-2 p {
+     max-width: 650px;
+     font-size: 24px;
+     line-height: 45px;
+   }
+
+   .internships-card h3 {
+    padding-top: 10px;
+   }
+   
+   .internships-card {
+     width: 750px;
+     background-color: var(--main-color);
+     margin: auto;
+     border-radius: 33px;
+   }
+   
+   .internships-text-1 p, .internships-text-2 p {
+     max-width: 650px;
+     font-size: 24px;
+     line-height: 45px;
+   }
+
+   .line {
+    height: 1px;
+    background: black;
+    width: 900px;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+
+  .get-in-touch-button {
+    width: 350px;
+    height: 40px;
+    border: none;
+    font-size: 18px;
+    border-radius: 20px;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 700;
+    background-color: #3FA752;
+    margin-bottom: 50px;
+    margin-top: 20px;
+  }
+  
+  .get-in-touch-button-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+  }
+ }
