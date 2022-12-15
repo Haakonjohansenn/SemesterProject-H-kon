@@ -56,7 +56,6 @@ main h2 {
 
 .button:hover {
   background-color: bisque;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
 }
 
 .exhibition {
@@ -132,6 +131,17 @@ main h2 {
 .see-more-button-container {
   display: flex;
   justify-content: center;  
+}
+
+.see-more-button-events a {
+  text-decoration: none;
+  color: #000;
+}
+
+.see-more-button-events {
+  width: 115px;
+  height: 20px;
+  margin-top: -10px;
 }
 
 .support-card {
@@ -303,6 +313,7 @@ main h2 {
     background-color: var(--main-color);
     border: none;
     border-radius: 12px;
+    font-family: 'Public Sans', sans-serif;
     font-weight: 700;
     margin-top: 10px;
   }
@@ -349,7 +360,6 @@ main h2 {
   .see-more-button {
     width: 160px;
     height: 25px;
-    margin-top: 10px;
   }
 
   .events-section {
@@ -381,6 +391,13 @@ main h2 {
     max-width: 140px;
   }
 
+  .see-more-button-events {
+    width: 160px;
+    height: 25px;
+    margin-top: 15px;
+    font-size: 18px;
+  }
+
   .parent-footer {
     font-size: 18px;
   }
@@ -392,7 +409,7 @@ main h2 {
     border-radius: 90px;
   }
   
-  .support-card h2 {
+  .support-card h3 {
     font-family: 'Public Sans', sans-serif;
     margin-top: 14px;
     font-size: 24px;
@@ -416,7 +433,7 @@ main h2 {
     border-radius: 90px;
   }
   
-  .volunteer-card h2 {
+  .volunteer-card h3 {
     font-family: 'Public Sans', sans-serif;
     margin-top: 14px;
     font-size: 24px;
@@ -440,7 +457,7 @@ main h2 {
     border-radius: 90px;
   }
   
-  .internships-card h2 {
+  .internships-card h3 {
     font-family: 'Public Sans', sans-serif;
     margin-top: 14px;
     font-size: 24px;
@@ -471,7 +488,8 @@ main h2 {
   
   .see-more-button-green {
     width: 200px;
-    height: 40px;
+    height: 30px;
+    font-size: 18px;
     border: none;
     border-radius: 25px;
     font-family: 'Public Sans', sans-serif;
@@ -595,7 +613,8 @@ main h2 {
   .see-more-button {
     width: 300px;
     height: 38px;
-    margin-top: 70px;
+    margin-top: 40px;
+    border-radius: 40px;
   }
 
   .see-more-button-container {
@@ -604,10 +623,6 @@ main h2 {
 
   .events-section {
     margin-top: 200px;
-  }
-
-  .events-section h1 {
-    font-size: 50px;
   }
 
   .event {
@@ -629,6 +644,14 @@ main h2 {
     line-height: 30px;
     text-align: center;
     max-width: 240px;
+  }
+
+  .see-more-button-events {
+    width: 300px;
+    height: 38px;
+    margin-top: 70px;
+    border-radius: 40px;
+    font-size: 30px;
   }
 
   .support-card {
@@ -715,15 +738,11 @@ main h2 {
     width: 300px;
     height: 38px;
     border: none;
-    border-radius: 12px;
+    border-radius: 40px;
     font-family: 'Public Sans', sans-serif;
     font-weight: 700;
     font-size: 30px;
     background-color: #3FA752;
     margin-top: 100px;
-  }
-
-  .parent-footer {
-    font-size: 18px;
   }
 }
