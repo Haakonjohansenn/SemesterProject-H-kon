@@ -31,7 +31,7 @@ main h2 {
 .parent-explore {
   display: flex;
   justify-content: center;
-  gap: 1.8rem;
+  gap: 1.5rem;
 }
 
 .parent-explore a {
@@ -47,6 +47,7 @@ main h2 {
 
 .button {
   background-color: var(--main-color);
+  width: 80px;
   border: none;
   border-radius: 12px;
   font-family: 'Public Sans', sans-serif;
@@ -54,6 +55,11 @@ main h2 {
   margin-top: 10px;
   transition: box-shadow 0.15s;
   cursor: pointer;
+}
+
+.for-researchers-button {
+  width: 85px;
+  margin-left: -4px;
 }
 
 .button:hover {
@@ -70,6 +76,11 @@ main h2 {
 .exhibition-section {
   margin-top: 60px;
 }
+
+.exhibition-section h2 {
+  margin-right: 8px;
+}
+
 .exhibition-picture-collage-parent {
   margin-top: 40px;
   margin-left: 14px;
@@ -121,7 +132,7 @@ main h2 {
 .event-photo-container {
   display: flex;
   justify-content: center;
-  gap: 1.8rem;
+  gap: 1.5rem;
 }
 
 .event-image p {
@@ -147,7 +158,7 @@ main h2 {
 }
 
 .support-card {
-  width: 95px;
+  width: 90px;
   background-color: var(--main-color);
   height: 175px;
   border-radius: 40px;
@@ -155,7 +166,7 @@ main h2 {
 
 .support-card h3 {
   margin-top: 14px;
-  font-size: 16px;
+  font-size: 14px;
   text-align: center;
 }
 
@@ -169,7 +180,7 @@ main h2 {
 }
 
 .volunteer-card {
-  width: 95px;
+  width: 90px;
   background-color: var(--main-color);
   height: 175px;
   border-radius: 40px;
@@ -177,7 +188,7 @@ main h2 {
 
 .volunteer-card h3 {
   margin-top: 14px;
-  font-size: 16px;
+  font-size: 14px;
   text-align: center;
 }
 
@@ -191,7 +202,7 @@ main h2 {
 }
 
 .internships-card {
-  width: 95px;
+  width: 90px;
   background-color: var(--main-color);
   height: 175px;
   border-radius: 40px;
@@ -199,7 +210,7 @@ main h2 {
 
 .internships-card h3 {
   margin-top: 14px;
-  font-size: 16px;
+  font-size: 14px;
   text-align: center;
 }
 
@@ -215,7 +226,7 @@ main h2 {
 .gi-card-parent {
   display: flex;
   justify-content: center;
-  gap: 1rem;
+  gap: 0.6rem;
   margin-top: 20px;
   padding-bottom: 10px;  
 }
@@ -237,7 +248,7 @@ main h2 {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
 }
 
-.see-more-button-green a {
+a .see-more-button-green {
   text-decoration: none;
   color: #fff;
 }
@@ -316,6 +327,9 @@ main h2 {
   .button {
     background-color: var(--main-color);
     border: none;
+    width: 140px;
+    height: 25px;
+    font-size: 18px;
     border-radius: 12px;
     font-family: 'Public Sans', sans-serif;
     font-weight: 700;
@@ -566,6 +580,9 @@ main h2 {
   .button {
     background-color: var(--main-color);
     border: none;
+    width: 240px;
+    font-size: 24px;
+    height: 30px;
     border-radius: 12px;
     font-family: 'Public Sans', sans-serif;
     font-weight: 700;

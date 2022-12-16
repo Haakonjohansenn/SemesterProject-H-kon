@@ -17,7 +17,7 @@ main {
   font-family: 'Public Sans', sans-serif;
 }
 
-h2 {
+main h2 {
   font-size: 30px;
   text-align: center;
 }
@@ -96,7 +96,7 @@ h3 {
   cursor: pointer;
 }
 
-.see-exhibition-button a {
+a .see-exhibition-button {
   text-decoration: none;
   color: #fff;
 }
@@ -164,7 +164,7 @@ h3 {
   transition: box-shadow 0.15s;
 }
 
-.get-in-touch-button a {
+a .get-in-touch-button {
   text-decoration: none;
   color: #fff;
 }
@@ -307,7 +307,7 @@ h3 {
     margin-left: 20px;
   }
 
-  h2 {
+  main h2 {
     font-size: 60px;
   }
 
@@ -414,7 +414,7 @@ h3 {
   
   .kid-reading-parent {
     display: flex;
-    gap: 1.5rem;
+    gap: 2.5rem;
     margin-top: 35px;
     justify-content: center;
   }
@@ -431,7 +431,7 @@ h3 {
     margin-top: 10px;
   }
   
-  .get-in-touch-button a {
+  a .get-in-touch-button {
     font-size: 18px;
   }
   
@@ -531,7 +531,7 @@ h3 {
     font-size: 18px;
   }
 
-  h2 {
+  main h2 {
     font-size: 80px;
   }
 
@@ -651,7 +651,7 @@ h3 {
     margin-top: 10px;
   }
   
-  .get-in-touch-button a {
+  a .get-in-touch-button {
     font-size: 24px;
   }
   
