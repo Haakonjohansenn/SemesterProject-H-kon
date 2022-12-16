@@ -48,14 +48,17 @@ main h2 {
 .button {
   background-color: var(--main-color);
   border: none;
-  border-radius: 7px;
+  border-radius: 12px;
   font-family: 'Public Sans', sans-serif;
   font-weight: 700;
   margin-top: 10px;
+  transition: box-shadow 0.15s;
+  cursor: pointer;
 }
 
 .button:hover {
   background-color: bisque;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
 }
 
 .exhibition {
@@ -141,7 +144,6 @@ main h2 {
 .see-more-button-events {
   width: 115px;
   height: 20px;
-  margin-top: -10px;
 }
 
 .support-card {
@@ -151,7 +153,7 @@ main h2 {
   border-radius: 40px;
 }
 
-.support-card h2 {
+.support-card h3 {
   margin-top: 14px;
   font-size: 16px;
   text-align: center;
@@ -173,15 +175,13 @@ main h2 {
   border-radius: 40px;
 }
 
-.volunteer-card h2 {
-  font-family: 'Public Sans', sans-serif;
+.volunteer-card h3 {
   margin-top: 14px;
   font-size: 16px;
   text-align: center;
 }
 
 .volunteer-card p {
-  font-family: 'Public Sans', sans-serif;
   max-width: 80px;
   font-size: 10px;
   line-height: 13px;
@@ -197,15 +197,13 @@ main h2 {
   border-radius: 40px;
 }
 
-.internships-card h2 {
-  font-family: 'Public Sans', sans-serif;
+.internships-card h3 {
   margin-top: 14px;
   font-size: 16px;
   text-align: center;
 }
 
 .internships-card p {
-  font-family: 'Public Sans', sans-serif;
   max-width: 80px;
   font-size: 10px;
   line-height: 13px;
@@ -226,11 +224,17 @@ main h2 {
   width: 115px;
   height: 20px;
   border: none;
-  border-radius: 7px;
+  border-radius: 12px;
   font-family: 'Public Sans', sans-serif;
   font-weight: 700;
   background-color: #3FA752;
   margin-bottom: 40px;
+  transition: box-shadow 0.15s;
+}
+
+.see-more-button-green:hover {
+  background-color: rgb(1, 77, 6);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
 }
 
 .see-more-button-green a {

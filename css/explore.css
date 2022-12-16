@@ -92,11 +92,18 @@ h3 {
   background-color: #3FA752;
   margin-bottom: 40px;
   margin-top: 10px;
+  transition: box-shadow 0.15s;
+  cursor: pointer;
 }
 
 .see-exhibition-button a {
   text-decoration: none;
   color: #fff;
+}
+
+.see-exhibition-button:hover {
+  background-color: rgb(1, 77, 6);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
 }
 
 .see-exhibition-button-container {
@@ -153,11 +160,18 @@ h3 {
   background-color: #3FA752;
   margin-bottom: 40px;
   margin-top: 10px;
+  cursor: pointer;
+  transition: box-shadow 0.15s;
 }
 
 .get-in-touch-button a {
   text-decoration: none;
   color: #fff;
+}
+
+.get-in-touch-button:hover {
+  background-color: rgb(1, 77, 6);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
 }
 
 .get-in-touch-button-container {

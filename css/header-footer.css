@@ -59,6 +59,11 @@ nav a {
   display: none;
 }
 
+.navmenu a:hover {
+  opacity: 0.8;
+  font-size: 120%;
+}
+
 .nav-bar {
   display: flex;
 }

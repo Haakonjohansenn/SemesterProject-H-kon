@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="this page contains a contact form, so you can easily get in touch with us">
     <link href="/css/header-footer.css" rel="stylesheet" />
     <link href="/css/contact.css" rel="stylesheet" >
     <script
@@ -61,13 +62,13 @@
 
       <form>
         <label for="Email Address">Email Address:</label>
-        <input type="Email" name="Email Address" value="" id="Email Address" />
+        <input type="Email" name="Email Address" value="" id="Email Address" required/>
 
         <label for="Name">Name:</label>
-        <input type="name" name="Name" value="" id="Name" />
+        <input type="text" name="Name" value="" id="Name" required/>
 
         <label for="Message">Message:</label>
-        <textarea id="Message" name="Message" rows="10" cols="20"></textarea>
+        <textarea id="Message" name="Message" rows="10" cols="20" required></textarea>
 
         <input type="Submit" name="submit" value="Submit" id="submit" class="submit-button"/>
       </form>
