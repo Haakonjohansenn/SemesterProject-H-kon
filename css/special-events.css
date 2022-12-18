@@ -1,9 +1,9 @@
 :root {
-  --main-color: #FDD068;
+  --main-color: #fdd068;
 }
 
 main {
-  font-family: 'Public Sans', sans-serif;
+  font-family: "Public Sans", sans-serif;
 }
 
 .special-events-header h2 {
@@ -107,7 +107,7 @@ main h3 {
   justify-content: center;
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
   .line {
     height: 1px;
     background: black;
@@ -118,34 +118,34 @@ main h3 {
   .special-events-header h2 {
     font-size: 40px;
   }
-  
+
   main h3 {
     text-align: center;
     font-size: 30px;
     margin-top: 40px;
   }
-  
+
   .professor-of-aeronautics-section h3 {
     max-width: 480px;
   }
-  
+
   .professor-of-aeronautics {
     width: 480px;
     padding: 20px 0px;
   }
-  
+
   .professor-of-aeronautics-text p {
     width: 480px;
     font-size: 18px;
     line-height: 35px;
   }
-  
+
   .night-in-the-museum {
     width: 480px;
     height: 480px;
     padding: 20px 0px;
   }
-  
+
   .night-in-the-museum-text p {
     width: 480px;
     font-size: 18px;
@@ -155,12 +155,12 @@ main h3 {
   .energetica-exhibition-section h3 {
     max-width: 480px;
   }
-  
+
   .energetica-exhibition {
     width: 480px;
     padding: 20px 0px;
   }
-  
+
   .energetica-exhibition-text p {
     width: 480px;
     font-size: 18px;
@@ -168,7 +168,7 @@ main h3 {
   }
 }
 
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
   .line {
     height: 1px;
     background: black;
@@ -179,34 +179,34 @@ main h3 {
   .special-events-header h2 {
     font-size: 55px;
   }
-  
+
   main h3 {
     text-align: center;
     font-size: 45px;
     margin-top: 55px;
   }
-  
+
   .professor-of-aeronautics-section h3 {
     max-width: 800px;
   }
-  
+
   .professor-of-aeronautics {
     width: 800px;
     padding: 30px 0px;
   }
-  
+
   .professor-of-aeronautics-text p {
     width: 800px;
     font-size: 30px;
     line-height: 55px;
   }
-  
+
   .night-in-the-museum {
     width: 800px;
     height: 700px;
     padding: 30px 0px;
   }
-  
+
   .night-in-the-museum-text p {
     width: 800px;
     font-size: 30px;
@@ -216,12 +216,12 @@ main h3 {
   .energetica-exhibition-section h3 {
     max-width: 800px;
   }
-  
+
   .professor-of-aeronautics {
     width: 800px;
     padding: 30px 0px;
   }
-  
+
   .energetica-exhibition p {
     width: 800px;
     font-size: 30px;
@@ -231,12 +231,12 @@ main h3 {
   .energetica-exhibition-section h3 {
     max-width: 800px;
   }
-  
+
   .energetica-exhibition {
     width: 800px;
     padding: 30px 0px;
   }
-  
+
   .energetica-exhibition-text p {
     width: 800px;
     font-size: 30px;

@@ -1,5 +1,5 @@
 main {
-  font-family: 'Public Sans', sans-serif;
+  font-family: "Public Sans", sans-serif;
 }
 
 .get-in-touch-header h1 {
@@ -37,22 +37,22 @@ textarea {
   height: 35px;
   border: none;
   border-radius: 15px;
-  font-family: 'Public Sans', sans-serif;
+  font-family: "Public Sans", sans-serif;
   font-weight: 700;
-  background-color: #3FA752;
+  background-color: #3fa752;
   margin-bottom: 40px;
   margin-top: 10px;
   color: #fff;
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
   .line {
     height: 1px;
     background: black;
     width: 550px;
     margin: auto;
   }
-  
+
   form {
     display: flex;
     flex-direction: column;
@@ -61,25 +61,25 @@ textarea {
     gap: 20px;
     margin-top: 20px;
   }
-  
+
   input {
     height: 30px;
     border-radius: 5px;
   }
-  
+
   textarea {
     border-radius: 5px;
     height: 200px;
   }
-  
+
   .submit-button {
     width: 350px;
     height: 40px;
     border: none;
     border-radius: 20px;
-    font-family: 'Public Sans', sans-serif;
+    font-family: "Public Sans", sans-serif;
     font-weight: 700;
-    background-color: #3FA752;
+    background-color: #3fa752;
     margin-bottom: 40px;
     margin-top: 10px;
     color: #fff;
@@ -87,14 +87,14 @@ textarea {
   }
 }
 
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
   .line {
     height: 1px;
     background: black;
     width: 550px;
     margin: auto;
   }
-  
+
   form {
     display: flex;
     flex-direction: column;
@@ -103,25 +103,25 @@ textarea {
     gap: 20px;
     margin-top: 20px;
   }
-  
+
   input {
     height: 30px;
     border-radius: 5px;
   }
-  
+
   textarea {
     border-radius: 5px;
     height: 200px;
   }
-  
+
   .submit-button {
     width: 350px;
     height: 40px;
     border: none;
     border-radius: 20px;
-    font-family: 'Public Sans', sans-serif;
+    font-family: "Public Sans", sans-serif;
     font-weight: 700;
-    background-color: #3FA752;
+    background-color: #3fa752;
     margin-bottom: 40px;
     margin-top: 10px;
     color: #fff;

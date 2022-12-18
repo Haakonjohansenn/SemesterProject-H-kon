@@ -1,5 +1,5 @@
 main {
-  font-family: 'Public Sans', sans-serif;
+  font-family: "Public Sans", sans-serif;
 }
 
 .line {
@@ -15,7 +15,8 @@ main h2 {
   margin-top: 40px;
 }
 
-.kid-vr, .luke-ellis {
+.kid-vr,
+.luke-ellis {
   width: 120px;
   height: 170px;
 }
@@ -60,44 +61,45 @@ main h2 {
   justify-content: center;
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
   .line {
     height: 1px;
     background: black;
     width: 550px;
     margin: auto;
   }
-  
+
   main h2 {
     text-align: center;
     font-size: 30px;
     margin-top: 40px;
   }
-  
-  .kid-vr, .luke-ellis {
+
+  .kid-vr,
+  .luke-ellis {
     width: 220px;
     height: 300px;
   }
-  
+
   .about-image-parent {
     display: flex;
     justify-content: center;
     gap: 2.5rem;
   }
-  
+
   .about-text-1 p {
     max-width: 480px;
     text-align: center;
     font-size: 18px;
     line-height: 35px;
   }
-  
+
   .about-text-2 p {
     max-width: 480px;
     font-size: 18px;
     line-height: 35px;
   }
-  
+
   .about-text-3 p {
     max-width: 480px;
     font-size: 18px;
@@ -105,44 +107,45 @@ main h2 {
   }
 }
 
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
   .line {
     height: 1px;
     background: black;
     width: 1000px;
     margin: auto;
   }
-  
+
   main h2 {
     text-align: center;
     font-size: 50px;
     margin-top: 40px;
   }
-  
-  .kid-vr, .luke-ellis {
+
+  .kid-vr,
+  .luke-ellis {
     width: 340px;
     height: 450px;
   }
-  
+
   .about-image-parent {
     display: flex;
     justify-content: center;
     gap: 3.5rem;
   }
-  
+
   .about-text-1 p {
     max-width: 750px;
     text-align: center;
     font-size: 24px;
     line-height: 45px;
   }
-  
+
   .about-text-2 p {
     max-width: 750px;
     font-size: 24px;
     line-height: 45px;
   }
-  
+
   .about-text-3 p {
     max-width: 750px;
     font-size: 24px;

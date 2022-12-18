@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Public+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Public+Sans&display=swap");
 
 :root {
-  --main-color: #FDD068;
+  --main-color: #fdd068;
 }
 
 html,
@@ -14,7 +14,7 @@ body {
 }
 
 main {
-  font-family: 'Public Sans', sans-serif;
+  font-family: "Public Sans", sans-serif;
 }
 
 main h2 {
@@ -48,7 +48,8 @@ h3 {
   gap: 2rem;
 }
 
-.bumper-swing, .mammoth {
+.bumper-swing,
+.mammoth {
   height: 80px;
   width: 104px;
   margin-left: 15px;
@@ -87,9 +88,9 @@ h3 {
   height: 45px;
   border: none;
   border-radius: 15px;
-  font-family: 'Public Sans', sans-serif;
+  font-family: "Public Sans", sans-serif;
   font-weight: 700;
-  background-color: #3FA752;
+  background-color: #3fa752;
   margin-bottom: 40px;
   margin-top: 10px;
   transition: box-shadow 0.15s;
@@ -155,9 +156,9 @@ a .see-exhibition-button {
   height: 30px;
   border: none;
   border-radius: 15px;
-  font-family: 'Public Sans', sans-serif;
+  font-family: "Public Sans", sans-serif;
   font-weight: 700;
-  background-color: #3FA752;
+  background-color: #3fa752;
   margin-bottom: 40px;
   margin-top: 10px;
   cursor: pointer;
@@ -192,7 +193,8 @@ a .get-in-touch-button {
   max-width: 256px;
 }
 
-.luke-ellis, .exhibition-cases {
+.luke-ellis,
+.exhibition-cases {
   width: 120px;
   height: 150px;
 }
@@ -239,7 +241,8 @@ a .get-in-touch-button {
   font-weight: 300;
 }
 
-.microscope-pic, .science-equipment-pic {
+.microscope-pic,
+.science-equipment-pic {
   height: 130px;
   width: 130px;
 }
@@ -251,7 +254,7 @@ a .get-in-touch-button {
   margin-top: 15px;
 }
 
-@media (min-width: 280px){
+@media (min-width: 280px) {
   .navmenu {
     position: fixed;
     flex-direction: column;
@@ -291,7 +294,6 @@ a .get-in-touch-button {
     top: 70px;
   }
 
-
   .hero-picture {
     width: 350px;
     height: 250px;
@@ -299,7 +301,7 @@ a .get-in-touch-button {
     margin-right: 18px;
     margin-top: 30px;
   }
-  
+
   .hero-text {
     line-height: 120px;
     font-size: 38px;
@@ -330,27 +332,28 @@ a .get-in-touch-button {
     line-height: 35px;
     margin: auto;
   }
-  
+
   .line {
     height: 1px;
     background: black;
     width: 600px;
     margin: auto;
   }
-  
+
   .for-kids-image-parent {
     display: flex;
     justify-content: center;
     gap: 6rem;
   }
-  
-  .bumper-swing, .mammoth {
+
+  .bumper-swing,
+  .mammoth {
     height: 200px;
     width: 260px;
     margin-left: 15px;
     margin-top: 35px;
   }
-  
+
   .bumper-swing-container p {
     font-size: 18px;
     max-width: 240px;
@@ -358,7 +361,7 @@ a .get-in-touch-button {
     margin-left: 40px;
     text-align: center;
   }
-  
+
   .mammoth-container p {
     font-size: 18px;
     max-width: 240px;
@@ -366,22 +369,22 @@ a .get-in-touch-button {
     margin-left: 25px;
     text-align: center;
   }
-  
+
   .see-exhibition-section p {
     font-size: 15px;
     max-width: 400px;
     line-height: 35px;
     margin-top: 50px;
   }
-  
+
   .see-exhibition-button {
     width: 400px;
     height: 60px;
     border: none;
     border-radius: 15px;
-    font-family: 'Public Sans', sans-serif;
+    font-family: "Public Sans", sans-serif;
     font-weight: 700;
-    background-color: #3FA752;
+    background-color: #3fa752;
     margin-bottom: 40px;
     margin-top: 10px;
   }
@@ -393,80 +396,81 @@ a .get-in-touch-button {
   .kid-learning {
     width: 600px;
   }
-  
+
   .clubs-text-1 p {
     max-width: 600px;
     font-size: 15px;
     line-height: 25px;
   }
-  
+
   .kid-reading {
     width: 188px;
     margin-left: 8px;
   }
-  
+
   .kid-reading-text p {
     font-size: 15px;
     line-height: 35px;
     max-width: 240px;
     margin-top: -6px;
   }
-  
+
   .kid-reading-parent {
     display: flex;
     gap: 2.5rem;
     margin-top: 35px;
     justify-content: center;
   }
-  
+
   .get-in-touch-button {
     width: 300px;
     height: 40px;
     border: none;
     border-radius: 25px;
-    font-family: 'Public Sans', sans-serif;
+    font-family: "Public Sans", sans-serif;
     font-weight: 700;
-    background-color: #3FA752;
+    background-color: #3fa752;
     margin-bottom: 40px;
     margin-top: 10px;
   }
-  
+
   a .get-in-touch-button {
     font-size: 18px;
   }
-  
+
   .get-in-touch-button-container {
     display: flex;
     justify-content: center;
     margin-top: 30px;
   }
-  
+
   .for-teachers-text-1 p {
     max-width: 500px;
     font-size: 25px;
     font-weight: 600;
     line-height: 35px;
   }
-  
-  .luke-ellis, .exhibition-cases {
+
+  .luke-ellis,
+  .exhibition-cases {
     width: 240px;
     height: 240px;
   }
-  
+
   .for-teachers-images {
     display: flex;
     justify-content: center;
     gap: 6rem;
     margin-top: 25px;
   }
-  
+
   .for-teachers-text-2 p {
     max-width: 600px;
     font-size: 20px;
     line-height: 30px;
     margin-left: 23px;
   }
-  
+
   .for-teachers-get-in-touch-text p {
     max-width: 380px;
     font-size: 18px;
@@ -480,12 +484,13 @@ a .get-in-touch-button {
     font-size: 25px;
     font-weight: 200;
   }
-  
-  .microscope-pic, .science-equipment-pic {
+
+  .microscope-pic,
+  .science-equipment-pic {
     height: 260px;
     width: 260px;
   }
-  
+
   .for-researchers-images {
     display: flex;
     justify-content: center;
@@ -515,7 +520,7 @@ a .get-in-touch-button {
     margin-right: 35px;
     margin-top: 30px;
   }
-  
+
   .hero-text {
     line-height: 140px;
     font-size: 50px;
@@ -550,27 +555,28 @@ a .get-in-touch-button {
     line-height: 45px;
     margin: auto;
   }
-  
+
   .line {
     height: 1px;
     background: black;
     width: 900px;
     margin: auto;
   }
-  
+
   .for-kids-image-parent {
     display: flex;
     justify-content: center;
     gap: 10rem;
   }
-  
-  .bumper-swing, .mammoth {
+
+  .bumper-swing,
+  .mammoth {
     height: 300px;
     width: 360px;
     margin-left: 15px;
     margin-top: 45px;
   }
-  
+
   .bumper-swing-container p {
     font-size: 22px;
     max-width: 280px;
@@ -578,7 +584,7 @@ a .get-in-touch-button {
     margin-left: 65px;
     text-align: center;
   }
-  
+
   .mammoth-container p {
     font-size: 22px;
     max-width: 280px;
@@ -586,22 +592,22 @@ a .get-in-touch-button {
     margin-left: 50px;
     text-align: center;
   }
-  
+
   .see-exhibition-section p {
     font-size: 22px;
     max-width: 600px;
     line-height: 35px;
     margin-top: 50px;
   }
-  
+
   .see-exhibition-button {
     width: 600px;
     height: 70px;
     border: none;
     border-radius: 15px;
-    font-family: 'Public Sans', sans-serif;
+    font-family: "Public Sans", sans-serif;
     font-weight: 700;
-    background-color: #3FA752;
+    background-color: #3fa752;
     margin-bottom: 40px;
     margin-top: 15px;
   }
@@ -613,80 +619,81 @@ a .get-in-touch-button {
   .kid-learning {
     width: 900px;
   }
-  
+
   .clubs-text-1 p {
     max-width: 750px;
     font-size: 28px;
     line-height: 25px;
   }
-  
+
   .kid-reading {
     width: 400px;
     margin-left: 8px;
   }
-  
+
   .kid-reading-text p {
     font-size: 26px;
     line-height: 55px;
     max-width: 350px;
     margin-top: -6px;
   }
-  
+
   .kid-reading-parent {
     display: flex;
     gap: 4rem;
     margin-top: 100px;
     justify-content: center;
   }
-  
+
   .get-in-touch-button {
     width: 450px;
     height: 45px;
     border: none;
     border-radius: 25px;
-    font-family: 'Public Sans', sans-serif;
+    font-family: "Public Sans", sans-serif;
     font-weight: 700;
-    background-color: #3FA752;
+    background-color: #3fa752;
     margin-bottom: 40px;
     margin-top: 10px;
   }
-  
+
   a .get-in-touch-button {
     font-size: 24px;
   }
-  
+
   .get-in-touch-button-container {
     display: flex;
     justify-content: center;
     margin-top: 30px;
   }
-  
+
   .for-teachers-text-1 p {
     max-width: 800px;
     font-size: 30px;
     font-weight: 600;
     line-height: 45px;
   }
-  
-  .luke-ellis, .exhibition-cases {
+
+  .luke-ellis,
+  .exhibition-cases {
     width: 400px;
     height: 400px;
   }
-  
+
   .for-teachers-images {
     display: flex;
     justify-content: center;
     gap: 4rem;
     margin-top: 50px;
   }
-  
+
   .for-teachers-text-2 p {
     max-width: 750px;
     font-size: 28px;
     line-height: 35px;
     margin-left: 23px;
   }
-  
+
   .for-teachers-get-in-touch-text p {
     max-width: 700px;
     font-size: 22px;
@@ -700,12 +707,13 @@ a .get-in-touch-button {
     font-size: 25px;
     font-weight: 200;
   }
-  
-  .microscope-pic, .science-equipment-pic {
+
+  .microscope-pic,
+  .science-equipment-pic {
     height: 370px;
     width: 370px;
   }
-  
+
   .for-researchers-images {
     display: flex;
     justify-content: center;

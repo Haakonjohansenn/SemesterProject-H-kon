@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Public+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Public+Sans&display=swap");
 
 :root {
-  --main-color: #FDD068;
+  --main-color: #fdd068;
 }
 
 html,
@@ -14,7 +14,7 @@ body {
 }
 
 main {
-  font-family: 'Public Sans', sans-serif;
+  font-family: "Public Sans", sans-serif;
 }
 
 main h2 {
@@ -50,7 +50,7 @@ main h2 {
   width: 80px;
   border: none;
   border-radius: 12px;
-  font-family: 'Public Sans', sans-serif;
+  font-family: "Public Sans", sans-serif;
   font-weight: 700;
   margin-top: 10px;
   transition: box-shadow 0.15s;
@@ -93,7 +93,8 @@ main h2 {
   margin-top: -10px;
 }
 
-.mammoth-pic, .planet-pic {
+.mammoth-pic,
+.planet-pic {
   margin-top: 10px;
 }
 
@@ -144,7 +145,7 @@ main h2 {
 
 .see-more-button-container {
   display: flex;
-  justify-content: center;  
+  justify-content: center;
 }
 
 .see-more-button-events a {
@@ -228,7 +229,7 @@ main h2 {
   justify-content: center;
   gap: 0.6rem;
   margin-top: 20px;
-  padding-bottom: 10px;  
+  padding-bottom: 10px;
 }
 
 .see-more-button-green {
@@ -236,9 +237,9 @@ main h2 {
   height: 20px;
   border: none;
   border-radius: 12px;
-  font-family: 'Public Sans', sans-serif;
+  font-family: "Public Sans", sans-serif;
   font-weight: 700;
-  background-color: #3FA752;
+  background-color: #3fa752;
   margin-bottom: 40px;
   transition: box-shadow 0.15s;
 }
@@ -253,7 +254,7 @@ a .see-more-button-green {
   color: #fff;
 }
 
-@media (min-width: 280px){
+@media (min-width: 280px) {
   .navmenu {
     position: fixed;
     flex-direction: column;
@@ -317,13 +318,13 @@ a .see-more-button-green {
     justify-content: center;
     gap: 4rem;
   }
-  
+
   .parent-explore a {
     font-size: 18px;
     text-decoration: none;
     color: #000;
   }
-  
+
   .button {
     background-color: var(--main-color);
     border: none;
@@ -331,7 +332,7 @@ a .see-more-button-green {
     height: 25px;
     font-size: 18px;
     border-radius: 12px;
-    font-family: 'Public Sans', sans-serif;
+    font-family: "Public Sans", sans-serif;
     font-weight: 700;
     margin-top: 10px;
   }
@@ -341,7 +342,7 @@ a .see-more-button-green {
     height: 120px;
     display: flex;
   }
-  
+
   .exhibition-section {
     margin-top: 120px;
   }
@@ -353,28 +354,29 @@ a .see-more-button-green {
     justify-content: center;
     gap: 2.3rem;
   }
-  
-  .mammoth-pic, .planet-pic {
+
+  .mammoth-pic,
+  .planet-pic {
     margin-top: 30px;
   }
-  
+
   .exhibitions-text {
-    font-family: 'Public Sans', sans-serif;
+    font-family: "Public Sans", sans-serif;
   }
-  
+
   .exhibitions-text p {
     font-size: 18px;
     max-width: 250px;
     margin-top: 10px;
     line-height: 35px;
   }
-  
+
   .see-more-button a {
     text-decoration: none;
     font-size: 18px;
     color: #000;
   }
-  
+
   .see-more-button {
     width: 160px;
     height: 25px;
@@ -394,15 +396,15 @@ a .see-more-button-green {
     display: flex;
     justify-content: center;
   }
-  
+
   .event-photo-container {
     display: flex;
     justify-content: center;
     gap: 4rem;
   }
-  
+
   .event-image p {
-    font-family: 'Public Sans', sans-serif;
+    font-family: "Public Sans", sans-serif;
     font-size: 16px;
     line-height: 20px;
     text-align: center;
@@ -426,16 +428,16 @@ a .see-more-button-green {
     height: 280px;
     border-radius: 90px;
   }
-  
+
   .support-card h3 {
-    font-family: 'Public Sans', sans-serif;
+    font-family: "Public Sans", sans-serif;
     margin-top: 14px;
     font-size: 24px;
     text-align: center;
   }
-  
+
   .support-card p {
-    font-family: 'Public Sans', sans-serif;
+    font-family: "Public Sans", sans-serif;
     max-width: 180px;
     font-size: 18px;
     line-height: 25px;
@@ -450,16 +452,16 @@ a .see-more-button-green {
     height: 280px;
     border-radius: 90px;
   }
-  
+
   .volunteer-card h3 {
-    font-family: 'Public Sans', sans-serif;
+    font-family: "Public Sans", sans-serif;
     margin-top: 14px;
     font-size: 24px;
     text-align: center;
   }
-  
+
   .volunteer-card p {
-    font-family: 'Public Sans', sans-serif;
+    font-family: "Public Sans", sans-serif;
     max-width: 180px;
     font-size: 18px;
     line-height: 25px;
@@ -467,23 +469,23 @@ a .see-more-button-green {
     margin-left: 24px;
     margin-top: -6px;
   }
-  
+
   .internships-card {
     width: 220px;
     background-color: var(--main-color);
     height: 280px;
     border-radius: 90px;
   }
-  
+
   .internships-card h3 {
-    font-family: 'Public Sans', sans-serif;
+    font-family: "Public Sans", sans-serif;
     margin-top: 14px;
     font-size: 24px;
     text-align: center;
   }
-  
+
   .internships-card p {
-    font-family: 'Public Sans', sans-serif;
+    font-family: "Public Sans", sans-serif;
     max-width: 180px;
     font-size: 18px;
     line-height: 25px;
@@ -491,7 +493,7 @@ a .see-more-button-green {
     margin-left: 24px;
     margin-top: -6px;
   }
-  
+
   .gi-card-parent {
     display: flex;
     justify-content: center;
@@ -503,18 +505,17 @@ a .see-more-button-green {
   .get-involved-section h2 {
     margin-top: 100px;
   }
-  
+
   .see-more-button-green {
     width: 200px;
     height: 30px;
     font-size: 18px;
     border: none;
     border-radius: 25px;
-    font-family: 'Public Sans', sans-serif;
+    font-family: "Public Sans", sans-serif;
     font-weight: 700;
-    background-color: #3FA752;
+    background-color: #3fa752;
   }
-
 }
 
 @media (min-width: 1200px) {
@@ -548,7 +549,7 @@ a .see-more-button-green {
     margin-right: 35px;
     margin-top: 30px;
   }
-  
+
   .hero-text {
     line-height: 140px;
     font-size: 50px;
@@ -570,13 +571,13 @@ a .see-more-button-green {
     justify-content: center;
     gap: 8rem;
   }
-  
+
   .parent-explore a {
     font-size: 28px;
     text-decoration: none;
     color: #000;
   }
-  
+
   .button {
     background-color: var(--main-color);
     border: none;
@@ -584,7 +585,7 @@ a .see-more-button-green {
     font-size: 24px;
     height: 30px;
     border-radius: 12px;
-    font-family: 'Public Sans', sans-serif;
+    font-family: "Public Sans", sans-serif;
     font-weight: 700;
     margin-top: 24px;
   }
@@ -594,7 +595,7 @@ a .see-more-button-green {
     height: 180px;
     display: flex;
   }
-  
+
   .exhibition-section {
     margin-top: 200px;
   }
@@ -605,15 +606,16 @@ a .see-more-button-green {
     justify-content: center;
     gap: 6rem;
   }
-  
-  .mammoth-pic, .planet-pic {
+
+  .mammoth-pic,
+  .planet-pic {
     margin-top: 80px;
   }
-  
+
   .exhibitions-text {
-    font-family: 'Public Sans', sans-serif;
+    font-family: "Public Sans", sans-serif;
   }
-  
+
   .exhibitions-text p {
     font-size: 30px;
     max-width: 400px;
@@ -624,13 +626,13 @@ a .see-more-button-green {
   .exhibitions-text h1 {
     font-size: 50px;
   }
-  
+
   .see-more-button a {
     text-decoration: none;
     font-size: 30px;
     color: #000;
   }
-  
+
   .see-more-button {
     width: 300px;
     height: 38px;
@@ -652,15 +654,15 @@ a .see-more-button-green {
     display: flex;
     justify-content: center;
   }
-  
+
   .event-photo-container {
     display: flex;
     justify-content: center;
     gap: 8rem;
   }
-  
+
   .event-image p {
-    font-family: 'Public Sans', sans-serif;
+    font-family: "Public Sans", sans-serif;
     font-size: 24px;
     line-height: 30px;
     text-align: center;
@@ -681,16 +683,16 @@ a .see-more-button-green {
     height: 350px;
     border-radius: 120px;
   }
-  
+
   .support-card h2 {
-    font-family: 'Public Sans', sans-serif;
+    font-family: "Public Sans", sans-serif;
     margin-top: 14px;
     font-size: 30px;
     text-align: center;
   }
-  
+
   .support-card p {
-    font-family: 'Public Sans', sans-serif;
+    font-family: "Public Sans", sans-serif;
     max-width: 240px;
     font-size: 24px;
     line-height: 35px;
@@ -705,16 +707,16 @@ a .see-more-button-green {
     height: 350px;
     border-radius: 120px;
   }
-  
+
   .volunteer-card h2 {
-    font-family: 'Public Sans', sans-serif;
+    font-family: "Public Sans", sans-serif;
     margin-top: 14px;
     font-size: 30px;
     text-align: center;
   }
-  
+
   .volunteer-card p {
-    font-family: 'Public Sans', sans-serif;
+    font-family: "Public Sans", sans-serif;
     max-width: 240px;
     font-size: 24px;
     line-height: 35px;
@@ -729,16 +731,16 @@ a .see-more-button-green {
     height: 350px;
     border-radius: 120px;
   }
-  
+
   .internships-card h2 {
-    font-family: 'Public Sans', sans-serif;
+    font-family: "Public Sans", sans-serif;
     margin-top: 14px;
     font-size: 30px;
     text-align: center;
   }
-  
+
   .internships-card p {
-    font-family: 'Public Sans', sans-serif;
+    font-family: "Public Sans", sans-serif;
     max-width: 240px;
     font-size: 24px;
     line-height: 33px;
@@ -760,10 +762,10 @@ a .see-more-button-green {
     height: 38px;
     border: none;
     border-radius: 40px;
-    font-family: 'Public Sans', sans-serif;
+    font-family: "Public Sans", sans-serif;
     font-weight: 700;
     font-size: 30px;
-    background-color: #3FA752;
+    background-color: #3fa752;
     margin-top: 100px;
   }
 }

@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Public+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Public+Sans&display=swap");
 
 :root {
-  --main-color: #FDD068;
+  --main-color: #fdd068;
   --text-color: #fff;
-  --purple-1: #3D348B;
-  --purple-2: #7678ED;
+  --purple-1: #3d348b;
+  --purple-2: #7678ed;
 }
 
 html,
@@ -16,8 +16,10 @@ body {
   width: 100%;
 }
 
-main h2, main h3, main p{
-  font-family: 'Public Sans', sans-serif;
+main h2,
+main h3,
+main p {
+  font-family: "Public Sans", sans-serif;
   color: var(--text-color);
   text-align: center;
 }
@@ -39,18 +41,20 @@ h2 {
 }
 
 .exhibition-cosmology {
-  background-color: #3D348B;
+  background-color: #3d348b;
   padding-top: 1px;
 }
 
-.cosmology-text-1 p, .cosmology-text-2 p {
+.cosmology-text-1 p,
+.cosmology-text-2 p {
   max-width: 240px;
   font-size: 10px;
   text-align: center;
   line-height: 25px;
 }
 
-.cosmology-text-1, .cosmology-text-2 {
+.cosmology-text-1,
+.cosmology-text-2 {
   display: flex;
   justify-content: center;
 }
@@ -92,7 +96,8 @@ h2 {
   justify-content: center;
 }
 
-.evolution-mammoth, .evolution-dinosaur {
+.evolution-mammoth,
+.evolution-dinosaur {
   width: 115px;
   height: 95px;
   border-radius: 23px;
@@ -148,7 +153,8 @@ h2 {
   justify-content: center;
 }
 
-.biology-body, .biology-heart {
+.biology-body,
+.biology-heart {
   width: 115px;
   height: 100px;
   border-radius: 23px;
@@ -285,7 +291,7 @@ h2 {
     margin-right: 18px;
     margin-top: 30px;
   }
-  
+
   .hero-text {
     line-height: 120px;
     font-size: 38px;
@@ -315,33 +321,35 @@ h2 {
     justify-content: center;
     margin: 45px 0px;
   }
-  
+
   .cosmology-pic {
     width: 480px;
     border-radius: 23px;
   }
-  
+
   .exhibition-cosmology {
-    background-color: #3D348B;
+    background-color: #3d348b;
     padding-top: 1px;
   }
-  
-  .cosmology-text-1 p, .cosmology-text-2 p {
+
+  .cosmology-text-1 p,
+  .cosmology-text-2 p {
     max-width: 480px;
     font-size: 18px;
     text-align: center;
     line-height: 35px;
   }
-  
-  .cosmology-text-1, .cosmology-text-2 {
+
+  .cosmology-text-1,
+  .cosmology-text-2 {
     display: flex;
     justify-content: center;
   }
-  
+
   .cosmology-text-2 {
     padding-bottom: 50px;
   }
-  
+
   .cosmology-parent {
     margin-top: 50px;
   }
@@ -350,18 +358,18 @@ h2 {
     background-color: var(--purple-2);
     padding-top: 30px;
   }
-  
+
   .evolution-skeleton-container {
     display: flex;
     justify-content: center;
     margin-top: 45px;
   }
-  
+
   .evolution-skeleton {
     width: 480px;
     border-radius: 23px;
   }
-  
+
   .evolution-text-1 p {
     max-width: 480px;
     font-size: 18px;
@@ -369,20 +377,21 @@ h2 {
     line-height: 35px;
     margin-top: 45px;
   }
-  
-  .evolution-mammoth, .evolution-dinosaur {
+
+  .evolution-mammoth,
+  .evolution-dinosaur {
     width: 230px;
     height: 200px;
     border-radius: 23px;
     margin-top: 45px;
   }
-  
+
   .evolution-images-flex {
     display: flex;
     justify-content: center;
     gap: 3rem;
   }
-  
+
   .evolution-text-2 {
     display: flex;
     justify-content: center;
@@ -401,18 +410,18 @@ h2 {
     background-color: var(--purple-1);
     padding-top: 30px;
   }
-  
+
   .biology-skull-container {
     display: flex;
     justify-content: center;
     margin-top: 45px;
   }
-  
+
   .biology-skull {
     width: 480px;
     border-radius: 23px;
   }
-  
+
   .biology-medicine-text-1 p {
     max-width: 480px;
     font-size: 18px;
@@ -420,26 +429,27 @@ h2 {
     line-height: 35px;
     margin-top: 45px;
   }
-  
-  .biology-body, .biology-heart {
+
+  .biology-body,
+  .biology-heart {
     width: 230px;
     height: 200px;
     border-radius: 23px;
     margin-top: 30px;
   }
-  
+
   .biology-medicine-images-flex {
     display: flex;
     justify-content: center;
     gap: 3rem;
   }
-  
+
   .biology-medicine-text-2 {
     display: flex;
     justify-content: center;
     padding-bottom: 45px;
   }
-  
+
   .biology-medicine-text-2 p {
     max-width: 490px;
     font-size: 18px;
@@ -452,13 +462,13 @@ h2 {
     background-color: var(--purple-2);
     padding-top: 30px;
   }
-  
+
   .child-robot-container {
     display: flex;
     justify-content: center;
     margin-top: 45px;
   }
-  
+
   .robotics-ai-text p {
     max-width: 480px;
     font-size: 18px;
@@ -466,13 +476,13 @@ h2 {
     line-height: 35px;
     margin-top: 45px;
   }
-  
+
   .robotics-ai-text {
     display: flex;
     justify-content: center;
     padding-bottom: 45px;
   }
-  
+
   .child-robot {
     width: 480px;
     border-radius: 23px;
@@ -482,17 +492,17 @@ h2 {
     background-color: var(--purple-1);
     padding-top: 30px;
   }
-  
+
   .energy-container {
     display: flex;
     justify-content: center;
   }
-  
+
   .energy {
     width: 480px;
     border-radius: 23px;
   }
-  
+
   .economy-text-1 p {
     max-width: 480px;
     font-size: 18px;
@@ -500,7 +510,7 @@ h2 {
     line-height: 35px;
     margin-top: 45px;
   }
-  
+
   .economy-text-2 p {
     max-width: 480px;
     font-size: 18px;
@@ -508,7 +518,7 @@ h2 {
     line-height: 35px;
     margin-top: 45px;
   }
-  
+
   .economy-text-2 {
     display: flex;
     justify-content: center;
@@ -537,7 +547,7 @@ h2 {
     margin-right: 35px;
     margin-top: 30px;
   }
-  
+
   .hero-text {
     line-height: 140px;
     font-size: 50px;
@@ -567,28 +577,29 @@ h2 {
     justify-content: center;
     margin: 55px 0px;
   }
-  
+
   .cosmology-pic {
     width: 800px;
     border-radius: 23px;
   }
-  
+
   .exhibition-cosmology {
-    background-color: #3D348B;
+    background-color: #3d348b;
     padding-top: 1px;
   }
-  
-  .cosmology-text-1 p, .cosmology-text-2 p {
+
+  .cosmology-text-1 p,
+  .cosmology-text-2 p {
     max-width: 800px;
     font-size: 24px;
     text-align: center;
     line-height: 45px;
   }
-  
+
   .cosmology-text-2 {
     padding-bottom: 60px;
   }
-  
+
   .cosmology-parent {
     margin-top: 65px;
   }
@@ -597,18 +608,18 @@ h2 {
     background-color: var(--purple-2);
     padding-top: 40px;
   }
-  
+
   .evolution-skeleton-container {
     display: flex;
     justify-content: center;
     margin-top: 55px;
   }
-  
+
   .evolution-skeleton {
     width: 800px;
     border-radius: 23px;
   }
-  
+
   .evolution-text-1 p {
     max-width: 800px;
     font-size: 24px;
@@ -616,20 +627,21 @@ h2 {
     line-height: 45px;
     margin-top: 55px;
   }
-  
-  .evolution-mammoth, .evolution-dinosaur {
+
+  .evolution-mammoth,
+  .evolution-dinosaur {
     width: 380px;
     height: 320px;
     border-radius: 23px;
     margin-top: 55px;
   }
-  
+
   .evolution-images-flex {
     display: flex;
     justify-content: center;
     gap: 4.5rem;
   }
-  
+
   .evolution-text-2 {
     display: flex;
     justify-content: center;
@@ -648,18 +660,18 @@ h2 {
     background-color: var(--purple-1);
     padding-top: 40px;
   }
-  
+
   .biology-skull-container {
     display: flex;
     justify-content: center;
     margin-top: 55px;
   }
-  
+
   .biology-skull {
     width: 800px;
     border-radius: 23px;
   }
-  
+
   .biology-medicine-text-1 p {
     max-width: 800px;
     font-size: 24px;
@@ -667,26 +679,27 @@ h2 {
     line-height: 45px;
     margin-top: 55px;
   }
-  
-  .biology-body, .biology-heart {
+
+  .biology-body,
+  .biology-heart {
     width: 380px;
     height: 320px;
     border-radius: 23px;
     margin-top: 40px;
   }
-  
+
   .biology-medicine-images-flex {
     display: flex;
     justify-content: center;
     gap: 4.5rem;
   }
-  
+
   .biology-medicine-text-2 {
     display: flex;
     justify-content: center;
     padding-bottom: 55px;
   }
-  
+
   .biology-medicine-text-2 p {
     max-width: 810px;
     font-size: 24px;
@@ -699,13 +712,13 @@ h2 {
     background-color: var(--purple-2);
     padding-top: 40px;
   }
-  
+
   .child-robot-container {
     display: flex;
     justify-content: center;
     margin-top: 55px;
   }
-  
+
   .robotics-ai-text p {
     max-width: 800px;
     font-size: 24px;
@@ -713,13 +726,13 @@ h2 {
     line-height: 45px;
     margin-top: 55px;
   }
-  
+
   .robotics-ai-text {
     display: flex;
     justify-content: center;
     padding-bottom: 55px;
   }
-  
+
   .child-robot {
     width: 800px;
     border-radius: 23px;
@@ -729,12 +742,12 @@ h2 {
     background-color: var(--purple-1);
     padding-top: 40px;
   }
-  
+
   .energy {
     width: 800px;
     border-radius: 23px;
   }
-  
+
   .economy-text-1 p {
     max-width: 800px;
     font-size: 24px;
@@ -742,7 +755,7 @@ h2 {
     line-height: 45px;
     margin-top: 55px;
   }
-  
+
   .economy-text-2 p {
     max-width: 800px;
     font-size: 24px;
@@ -750,7 +763,7 @@ h2 {
     line-height: 45px;
     margin-top: 55px;
   }
-  
+
   .economy-text-2 {
     display: flex;
     justify-content: center;
