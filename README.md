@@ -1,1 +1,1 @@
-# SemesterProject-H-kon
+# SemesterProject-Haakon
