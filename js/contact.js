@@ -1,13 +1,11 @@
 const formEl = document.querySelector("#js-form");
 const nameEl = document.querySelector("#js-name");
 const emailEl = document.querySelector("#js-email");
-const subjectEl = document.querySelector("#js-subject");
-const addressEl = document.querySelector("#js-address");
+const messageFieldEl = document.querySelector("#js-message");
 const messageEl = document.querySelector("#js-message-container");
 
 const minLengthRegexName = /^[a-zA-Z]{5,}/;
-const minLengthRegexSubject = /^[a-zA-Z]{10,}/;
-const minLengthRegexAddress = /^[a-zA-Z]{25,}/;
+const minLengthRegexMessageField = /^[a-zA-Z]{10,}/;
 
 const emailRegex =
   /[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/;
@@ -17,13 +15,11 @@ formEl.addEventListener("submit", function (event) {
 
   const name = nameEl.value;
   const email = emailEl.value;
-  const subject = subjectEl.value;
-  const address = addressEl.value;
+  const messageField = messageFieldEl.value;
 
   const nameValid = validateField(nameEl, minLengthRegexName);
   const emailValid = validateField(emailEl, emailRegex);
-  const subjectValid = validateField(subjectEl, minLengthRegexSubject);
-  const addressValid = validateField(addressEl, minLengthRegexAddress);
+  const messageFieldValid = validateField(messageFieldEl, minLengthRegexMessageField);
 
   messageEl.innerHTML = "";
 
@@ -37,17 +33,12 @@ formEl.addEventListener("submit", function (event) {
     return;
   }
 
-  if (!subjectValid) {
-    alert("Please enter a valid subject");
-    return;
-  }
-
-  if (!addressValid) {
+  if (!messageFieldValid) {
     alert("Please enter a valid address");
     return;
   }
 
-  submitForm(name, email, subject, address);
+  submitForm(name, email, messageField);
 });
 
 const validateName = () =>
@@ -60,23 +51,14 @@ const validateEmail = () =>
 emailEl.addEventListener("input", validateEmail);
 emailEl.addEventListener("blur", validateEmail);
 
-const validateSubject = () =>
+const validateMessageField = () =>
   validateField(
-    subjectEl,
-    minLengthRegexSubject,
-    "Please enter a valid subject"
-  );
-subjectEl.addEventListener("input", validateSubject);
-subjectEl.addEventListener("blur", validateSubject);
-
-const validateAddress = () =>
-  validateField(
-    addressEl,
-    minLengthRegexAddress,
+    messageFieldEl,
+    minLengthRegexMessageField,
     "please enter a valid address"
   );
-addressEl.addEventListener("input", validateAddress);
-addressEl.addEventListener("blur", validateAddress);
+messageFieldEl.addEventListener("input", validateMessageField);
+messageFieldEl.addEventListener("blur", validateMessageField);
 
 function validateField(field, regex, errorMessage) {
   const value = field.value.trim();
@@ -109,8 +91,7 @@ function resetForm() {
 
   nameEl.classList.remove("is-success");
   emailEl.classList.remove("is-success");
-  subjectEl.classList.remove("is-success");
-  addressEl.classList.remove("is-success");
+  messageFieldEl.classList.remove("is-success");
 
   document.querySelectorAll("[data-id]").forEach(function (el) {
     el.innerHTML = "";
@@ -127,8 +108,7 @@ async function submitForm(name, email, subject, address) {
       body: JSON.stringify({
         name,
         email,
-        subject,
-        address,
+        message,
       }),
     });
 

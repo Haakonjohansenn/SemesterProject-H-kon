@@ -10,6 +10,7 @@
     />
     <link href="/css/header-footer.css" rel="stylesheet" />
     <link href="/css/contact.css" rel="stylesheet" />
+    <script defer src="/js/contact.js"></script>
     <script
       src="https://kit.fontawesome.com/2a192e1676.js"
       crossorigin="anonymous"
@@ -74,36 +75,42 @@
         <div class="line"></div>
       </div>
 
-      <form>
-        <label for="Email Address">Email Address:</label>
-        <input
-          type="Email"
-          name="Email Address"
-          value=""
-          id="Email Address"
-          required
-        />
+      <div class="form-parent-container">
+        <section role="form-section">
+          <p id="js-message-container" class="error-message"></p>
 
-        <label for="Name">Name:</label>
-        <input type="text" name="Name" value="" id="Name" required />
+          <form class="c-form" id="js-form" autocomplete="on">
+            <div class="form-items">
+              <label for="js-name">Name:</label>
+              <input type="text" id="js-name" name="name" required />
+              <p
+                class="validation-container"
+                data-id="js-validation-message1"
+              ></p>
+            </div>
 
-        <label for="Message">Message:</label>
-        <textarea
-          id="Message"
-          name="Message"
-          rows="10"
-          cols="20"
-          required
-        ></textarea>
+            <div class="form-items">
+              <label for="js-email">Email Address:</label>
+              <input type="email" id="js-email" name="email" required />
+              <p
+                class="validation-container"
+                data-id="js-validation-message3"
+              ></p>
+            </div>
 
-        <input
-          type="Submit"
-          name="submit"
-          value="Submit"
-          id="submit"
-          class="submit-button"
-        />
-      </form>
+            <div class="form-items">
+              <label for="js-message">Message:</label>
+              <input type="text" id="js-message" name="message" required />
+              <p
+                class="validation-container"
+                data-id="js-validation-message4"
+              ></p>
+            </div>
+
+            <div class="button-container">
+              <button type="submit" class="submit-button">Submit</button>
+            </div>
+          </form>
     </main>
     <footer>
       <div class="parent-footer">
