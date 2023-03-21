@@ -45,6 +45,14 @@ textarea {
   color: #fff;
 }
 
+.is-success {
+  border-color: green;
+}
+
+.is-error {
+  border-color: red;
+}
+
 @media (min-width: 768px) {
   .line {
     height: 1px;
