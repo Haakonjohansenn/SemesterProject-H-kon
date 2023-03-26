@@ -57,6 +57,7 @@ nav a {
 
 .navmenu {
   display: none;
+  padding-left: 0px;
 }
 
 .navmenu a:hover {
@@ -81,6 +82,11 @@ nav a {
   margin: 5px auto;
   transition: all 0.3s ease-in-out;
   background-color: #000;
+}
+
+.logo-parent a {
+  text-decoration: none;
+  color: #000;
 }
 
 .hamburger.active .bar:nth-child(2) {

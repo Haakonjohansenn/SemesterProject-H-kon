@@ -34,7 +34,7 @@ formEl.addEventListener("submit", function (event) {
   }
 
   if (!messageFieldValid) {
-    alert("Please enter a valid address");
+    alert("Please enter a valid message");
     return;
   }
 
@@ -55,7 +55,7 @@ const validateMessageField = () =>
   validateField(
     messageFieldEl,
     minLengthRegexMessageField,
-    "please enter a valid address"
+    "Please enter a valid message"
   );
 messageFieldEl.addEventListener("input", validateMessageField);
 messageFieldEl.addEventListener("blur", validateMessageField);

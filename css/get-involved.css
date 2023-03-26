@@ -116,6 +116,11 @@ main h3 {
   justify-content: center;
 }
 
+.get-in-touch-button:hover {
+  background-color: rgb(1, 77, 6);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
 @media (min-width: 768px) {
   .line {
     height: 1px;
