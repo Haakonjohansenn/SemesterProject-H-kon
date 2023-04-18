@@ -1,0 +1,130 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+:root {
+  --main-color: #fdd068;
+}
+
+main {
+  font-family: "Public Sans", sans-serif;
+}
+
+.post-title {
+  max-width: 220px;
+  font-size: 10px;
+  margin: auto;
+}
+
+.post-title a {
+  text-decoration: none;
+}
+
+.card-container {
+  background-color: var(--main-color);
+  text-align: center;
+  max-width: 240px;
+  padding: 13px;
+  height: 190px;
+  border-radius: 15px;
+}
+
+.card-container:hover {
+  transition: 0.2s;
+  width: 240px;
+  height: 195px;
+}
+
+.parent-container {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+}
+
+.results-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+button {
+  width: 100px;
+  height: 25px;
+  border: none;
+  border-radius: 15px;
+  font-family: "Public Sans", sans-serif;
+  font-weight: 700;
+  background-color: #3fa752;
+  margin-bottom: 40px;
+  transition: box-shadow 0.15s;
+  cursor: pointer;
+  color: #fff;
+}
+
+button:hover {
+  background-color: rgb(1, 77, 6);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.skeleton-loader {
+  animation: skeleton 1s linear infinite alternate;
+}
+
+@keyframes skeleton {
+  0% {
+    background-color: hsl(200, 20%, 70%);
+  }
+  100% {
+    background-color: hsl(200, 20%, 95%);
+  }
+}
+
+.skeleton-image {
+  width: 240px;
+  height: 190px;
+  display: flex;
+  justify-content: center;
+  border-radius: 15px;
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.2rem;
+}
+
+.skeleton-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1.3em;
+  max-width: 240px;
+  border-radius: 1rem;
+}
+
+@media (min-width: 768px) {
+  .skeleton-image {
+    width: 240px;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.5rem;
+  }
+  
+  .skeleton-card {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    max-width: 300px;
+    margin: 1.2rem;
+    border-radius: 1rem;
+  }
+}
+
+
+
+
+
+
