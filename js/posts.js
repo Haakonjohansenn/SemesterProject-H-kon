@@ -15,7 +15,7 @@ async function fetchPosts() {
   
     const jsonResult = await response.json();
   
-    resultsContainer.innerHTML = ``;
+    resultsContainer.innerHTML = "";
   
     const posts = jsonResult;
 
