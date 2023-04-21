@@ -12,3 +12,15 @@ After i gathered all of this information i fixed the things that people told me 
 Also i made a responding contact form, i decided to use the advanced contact form from previous course assignment as inspiration.
 
 Finally to sum up the assignment. I had a very busy week and didn't manage my time great, so i am not really happy with my effort, but in my spare time i will continue to work with the things i did not do this time. I planned on making a ticket page, but did not do it this time.. 
+
+# CMS-ca-report
+
+First off i tried to make my wordpress connected to localhost and flywheel, which was not as easy as i thought in the beginning, but after a while i made it work. Decided to go for flywheel host.
+
+After i made sure everything was all right with headless cms i started to make some blog posts, i only made 5, because i couldn't be bothered making more at the time..
+
+So now it was time to fetch API's for ''product page'' and detailed page, i used what i learned from previous javascript CA and made it work. For the styling i decided to keep it ''small'' and kind of looking like a product page would, just because i wanted to make sure i practiced this style of execution. 
+
+The details page i kept very clean and simple, i didn't really feel the need to style much in there as my museum page is quite simple and clean already.
+
+To finish off i made sure everything was working on netlify, it didn't work in the beginning, but eventually i made it work. Not quite sure how, but i changed http to https and did a couple other things and it worked in the end.
