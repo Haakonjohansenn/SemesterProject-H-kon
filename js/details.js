@@ -6,7 +6,7 @@ const params = new URLSearchParams(queryString);
 
 const id = params.get("id");
 
-const url = "http://cms-course-assignment.local/wp-json/wp/v2/posts/" + id;
+const url = "https://cms-course-assignment.local/wp-json/wp/v2/posts/" + id;
 
 async function fetchPost() {
   try {
