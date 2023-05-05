@@ -1,6 +1,6 @@
 const resultsContainer = document.querySelector(".results-container");
 
-const url = "https://cms-course-assignment.local/wp-json/wp/v2/posts";
+const url = "https://cms-course-assignment.flywheelsites.com/wp-json/wp/v2/posts";
 
 async function fetchPosts() {
   try {
